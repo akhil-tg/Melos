@@ -9,7 +9,7 @@
     <!-- Bottom navigation -->
     <!-- Translators: Label for app name in the multiple app screens. -->
     <string name="app_name" translatable="false">Melos</string>
-    <string name="account_menu_license" translatable="false">GPL-3.0 MetrolistGroup</string>
+    <string name="account_menu_license" translatable="false">GPL-3.0 MelosGroup</string>
     <!-- Translators: Apple mobile platform name displayed in application information. -->
     <!-- Translators: Navigation label for home in the multiple app screens. -->
     <string name="home">Home</string>
@@ -750,6 +750,8 @@
     <!-- Translators: Label for discord in the multiple app screens. -->
     <string name="brand_discord" translatable="false">Discord</string>
     <!-- Translators: Label for telegram in the About screen. -->
+    <string name="brand_website" translatable="false">Website</string>
+    <string name="brand_instagram" translatable="false">Instagram</string>
     <string name="brand_telegram" translatable="false">Telegram</string>
     <!-- Translators: Brand name for the source repository host in the About screen. -->
     <string name="brand_github" translatable="false">GitHub</string>
@@ -763,6 +765,7 @@
     <!-- Translators: Label for credits collaborators section in the About screen. -->
     <string name="credits_collaborators_section">Collaborators</string>
     <string name="credits_leads_section">Leads</string>
+    <string name="credits_lead_developer">Lead developer</string>
     <string name="credits_creator_section">Creator</string>
     <!-- Translators: Label for community and info in the About screen. -->
     <!-- Translators: Label for buy mo a coffee; retained for translation compatibility but not currently referenced by app code. -->
@@ -968,10 +971,6 @@
     <string name="appearance_theme">Theme</string>
     <!-- Translators: Option or section label for style in the Appearance settings. -->
     <string name="appearance_style">Style</string>
-    <!-- Translators: Option or section label for app icon in the Appearance settings. -->
-    <string name="appearance_app_icon">App icon</string>
-    <!-- Translators: Option or section label for app icon credit in the Appearance settings. -->
-    <string name="appearance_app_icon_credit">Alternate icons by Kayé (@thy_k on Discord)</string>
     <!-- Translators: Option or section label for material you in the settings. -->
     <string name="material_you" translatable="false">Material You</string>
     <!-- Translators: Supporting text beneath the material you option in the settings. -->
@@ -1000,23 +999,6 @@
     <string name="theme_palette_monochrome">Monochrome</string>
     <!-- Translators: Option or section label for palette neutral in the Appearance settings. -->
     <string name="theme_palette_neutral">Neutral</string>
-    <!-- Translators: Name of the app’s original icon in the icon picker. -->
-    <string name="app_icon_original">Original</string>
-    <!-- Translators: Label for app icon arctic haze in the Android app. -->
-    <string name="app_icon_arctic_haze">Arctic Haze</string>
-    <!-- Translators: Label for app icon lavender leap in the Android app. -->
-    <string name="app_icon_lavender_leap">Lavender Leap</string>
-    <!-- Translators: Label for app icon metromallow in the Android app. -->
-    <string name="app_icon_metromallow">Metromallow</string>
-    <!-- Translators: Label for app icon pride special in the Android app. -->
-    <string name="app_icon_pride_special">Pride Special</string>
-    <!-- Translators: Label for app icon static in the Android app. -->
-    <string name="app_icon_static">Static</string>
-    <!-- Translators: Label for app icon zenith black in the Android app. -->
-    <string name="app_icon_zenith_black">Zenith Black</string>
-    <!-- Translators: Label for app icon zenith white in the Android app. -->
-    <string name="app_icon_zenith_white">Zenith White</string>
-    <string name="app_icon_gradient">Gradient</string>
     <!-- Translators: Imperative action label for choose in the font settings. -->
     <string name="app_font_choose">Choose font file</string>
     <!-- Translators: Supporting text beneath the picker option; retained for translation compatibility but not currently referenced by app code. -->
@@ -1675,12 +1657,6 @@
     <string name="updates_auto_check">Automatically check for updates</string>
     <!-- Translators: Imperative action label for notifications in the update settings. -->
     <string name="updates_notifications">Update notifications</string>
-    <!-- Translators: Heading for the app sharing section in the update settings. -->
-    <string name="updates_share_app">Share app</string>
-    <!-- Translators: Action label to share the installed Android app APK from the update settings. -->
-    <string name="updates_share_apk">Share app APK</string>
-    <!-- Translators: Error shown when the app APK cannot be prepared for sharing. -->
-    <string name="updates_share_apk_error">Could not prepare the app APK for sharing.</string>
     <!-- Translators: Option or section label for changelogs in the update settings. -->
     <string name="updates_changelogs">Changelogs</string>
     <!-- Translators: Option or section label for last check in the update settings. -->
@@ -3305,7 +3281,7 @@
     <!-- Translators: Heading for migration in the onboarding. -->
     <string name="onboarding_migration_title">Your v13 library is here</string>
     <!-- Translators: Supporting text beneath the migration option in the onboarding. -->
-    <string name="onboarding_migration_description">We found a standalone Metrolist database. Migrate playlists, history, likes, and library data in place. You can recover the original database if migration fails.</string>
+    <string name="onboarding_migration_description">We found a standalone Melos database. Migrate playlists, history, likes, and library data in place. You can recover the original database if migration fails.</string>
     <!-- Translators: Heading for migration complete in the onboarding. -->
     <string name="onboarding_migration_complete_title">Your account was migrated</string>
     <!-- Translators: Supporting text beneath the migration complete option in the onboarding. -->
@@ -5456,7 +5432,6 @@
     <string name="settings_diagnostic_logs_summary">Read and copy the app's diagnostic log</string>
     <string name="settings_log_directory_summary">Browse saved log files in your file manager</string>
     <string name="settings_check_releases_summary">Check GitHub for a newer Melos release</string>
-    <string name="settings_share_apk_summary">Share the installed app package as a file</string>
     <string name="settings_system_font_summary">Use the font supplied by your operating system</string>
     <string name="settings_thumbnail_shape_summary">Choose the shape of artwork in the expanded player</string>
     <string name="settings_audio_quality_summary">Higher quality uses more data and storage</string>
