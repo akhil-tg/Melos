@@ -479,6 +479,62 @@ class BrowseViewModelTest {
             }
         }
 
+    @Test
+    fun moodsAndGenresContinuationsKeepGroupedSectionOrder() =
+        runTest {
+            Settings.replaceSharedForTest(Settings(MapSettings()))
+            val previous = responseDecodeDispatcher
+            responseDecodeDispatcher = StandardTestDispatcher(testScheduler)
+            val client =
+                browseClient { request ->
+                    val body = Json.parseToJsonElement((request.body as TextContent).text).jsonObject
+                    val continuation = body["continuation"]?.jsonPrimitive?.content
+                    val contents =
+                        if (continuation == null) {
+                            listOf(songsShelf("Songs"), playlistCarousel("Community", community = true), playlistCarousel("Featured"))
+                        } else {
+                            listOf(
+                                songsShelf("Songs 2"),
+                                playlistCarousel("Community 2", community = true),
+                                playlistCarousel("Featured 2"),
+                            )
+                        }
+                    val sections = contents.joinToString(",")
+                    val response =
+                        if (continuation == null) {
+                            """{"contents":{"sectionListRenderer":{"contents":[$sections],
+                              "continuations":[{"nextContinuationData":{"continuation":"page2"}}]}}}"""
+                        } else {
+                            """{"continuationContents":{"sectionListContinuation":{"contents":[$sections],
+                              "continuations":[{"nextContinuationData":{"continuation":"page3"}}]}}}"""
+                        }
+                    Triple(response, HttpStatusCode.OK, headersOf(HttpHeaders.ContentType, "application/json"))
+                }
+            try {
+                val model =
+                    BrowseViewModel(
+                        "FEmusic_moods_and_genres_category",
+                        "mood-params",
+                        "Chill",
+                        this,
+                        YouTubeRepository(InnerTube(client, retryDelay = {})),
+                    )
+                advanceUntilIdle()
+                assertFalse(model.isLoading)
+                assertEquals(listOf("Featured", "Community", "Songs"), model.page.sections.map { it.title })
+                model.loadMore()
+                advanceUntilIdle()
+                assertEquals(
+                    listOf("Featured", "Community", "Songs", "Featured 2", "Community 2", "Songs 2"),
+                    model.page.sections.map { it.title },
+                )
+            } finally {
+                client.close()
+                responseDecodeDispatcher = previous
+                Settings.replaceSharedForTest(null)
+            }
+        }
+
     private fun TestScope.browseClient(response: suspend (HttpRequestData) -> Triple<String, HttpStatusCode, Headers>): HttpClient =
         HttpClient(
             MockEngine(
@@ -500,4 +556,30 @@ class BrowseViewModelTest {
             "flexColumns":[{"musicResponsiveListItemFlexColumnRenderer":{"text":{"simpleText":"$id"}}}]}}],
           "continuations":[{"nextContinuationData":{"continuation":"$continuation"}}]
         }}}"""
+
+    private fun songsShelf(title: String) =
+        """{"musicShelfRenderer":{
+          "title":{"simpleText":"$title"},
+          "contents":[{"musicResponsiveListItemRenderer":{"playlistItemData":{"videoId":"$title"},
+            "flexColumns":[{"musicResponsiveListItemFlexColumnRenderer":{"text":{"simpleText":"$title"}}}]}}]
+        }}}"""
+
+    private fun playlistCarousel(
+        title: String,
+        community: Boolean = false,
+    ): String {
+        val subtitle =
+            if (community) {
+                """,""subtitle":{"runs":[{"text":"Channel","navigationEndpoint":{"browseEndpoint":{"browseId":"UCchannel"}}}]}"""
+            } else {
+                ""
+            }
+        val item =
+            """{"musicTwoRowItemRenderer":{"title":{"runs":[{"text":"$title"}]},
+              "navigationEndpoint":{"browseEndpoint":{"browseId":"VL$title"}}$subtitle}}"""
+        return """{"musicCarouselShelfRenderer":{
+          "header":{"musicCarouselShelfBasicHeaderRenderer":{"title":{"simpleText":"$title"}}},
+          "contents":[$item]
+        }}}"""
+    }
 }

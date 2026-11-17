@@ -69,13 +69,7 @@ class BrowseViewModel(
             scope.launch {
                 try {
                     val loaded = repository.getBrowsePageData(browseId, params, title, loadAllPages = false)
-                    val ordered =
-                        if (browseId.startsWith("FEmusic_moods_and_genres")) {
-                            loaded.copy(sections = reorderMoodGenreSections(loaded.sections))
-                        } else {
-                            loaded
-                        }
-                    if (generation == requestGeneration) page = applySongMetadata(ordered)
+                    if (generation == requestGeneration) page = applySongMetadata(orderedMoodGenres(loaded))
                 } catch (error: CancellationException) {
                     throw error
                 } catch (_: Exception) {
@@ -113,7 +107,7 @@ class BrowseViewModel(
                     if (generation != requestGeneration) return@launch
                     seenTokens += token
                     pageCount++
-                    page = applySongMetadata(next)
+                    page = applySongMetadata(orderedMoodGenres(next))
                 } catch (error: CancellationException) {
                     throw error
                 } catch (_: Exception) {
@@ -123,6 +117,14 @@ class BrowseViewModel(
                 }
             }
     }
+
+    // Continuation sections arrive in raw InnerTube order, so re-apply the moods grouping after every page.
+    private fun orderedMoodGenres(page: BrowsePageData): BrowsePageData =
+        if (browseId?.startsWith("FEmusic_moods_and_genres") == true) {
+            page.copy(sections = reorderMoodGenreSections(page.sections))
+        } else {
+            page
+        }
 
     private fun applySongMetadata(page: BrowsePageData): BrowsePageData =
         if (updatedSongs.isEmpty()) {
