@@ -69,7 +69,13 @@ class BrowseViewModel(
             scope.launch {
                 try {
                     val loaded = repository.getBrowsePageData(browseId, params, title, loadAllPages = false)
-                    if (generation == requestGeneration) page = applySongMetadata(loaded)
+                    val ordered =
+                        if (browseId.startsWith("FEmusic_moods_and_genres")) {
+                            loaded.copy(sections = reorderMoodGenreSections(loaded.sections))
+                        } else {
+                            loaded
+                        }
+                    if (generation == requestGeneration) page = applySongMetadata(ordered)
                 } catch (error: CancellationException) {
                     throw error
                 } catch (_: Exception) {
