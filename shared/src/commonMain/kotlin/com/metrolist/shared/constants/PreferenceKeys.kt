@@ -34,7 +34,6 @@ val ArtistNameAliasesJsonKey = "artistNameAliasesJson"
 val PreferWordSyncedLyricsKey = "preferWordSyncedLyrics"
 
 val EnableHapticFeedbackKey = "enableHapticFeedback"
-val AppIconKey = "appIcon"
 val AutoPureBlackKey = "autoPureBlack"
 val AppLanguageKey = "appLanguage"
 val AndroidCustomFontFileKey = "androidCustomFontFile"

@@ -27,7 +27,7 @@ import com.metrolist.shared.constants.AnimatedArtworkCacheSizeKey
 import com.metrolist.shared.constants.AnimatedCoverCacheJsonKey
 import com.metrolist.shared.constants.AnimatedCoverCacheSizeKey
 import com.metrolist.shared.constants.AnimatedCoverResolutionKey
-import com.metrolist.shared.constants.AppIconKey
+import com.metrolist.shared.constants.EnableHapticFeedbackKey
 import com.metrolist.shared.constants.AppLanguageKey
 import com.metrolist.shared.constants.AppleMusicArtistCacheJsonKey
 import com.metrolist.shared.constants.AppleMusicArtistImagesKey
@@ -322,7 +322,6 @@ class Settings(
     var iosCustomFontName by preference(IosCustomFontNameKey, "")
     var iosCustomFontRevision by preference(IosCustomFontRevisionKey, 0L)
     var animatedGradient by preference(true)
-    var appIcon by preference(AppIconKey, "ORIGINAL")
     var enableHapticFeedback by preference(EnableHapticFeedbackKey, true)
 
     var appLayout by preference(AppLayout.EXPRESS)

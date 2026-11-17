@@ -64,8 +64,6 @@ import com.metrolist.android.ui.screens.settings.UpdatesScreen
 import com.metrolist.android.update.AppUpdateManager
 import com.metrolist.android.update.AppUpdateState
 import com.metrolist.android.utils.AppFontManager
-import com.metrolist.android.utils.AppIcon
-import com.metrolist.android.utils.IconUtils
 import com.metrolist.android.utils.QuickFontManager
 import com.metrolist.android.utils.SentryManager
 import com.metrolist.android.viewmodels.HomeViewModel
@@ -172,21 +170,6 @@ fun SettingsScreen(
     val lyricsTargetLanguageChoices =
         remember(contentLanguageChoices, deviceLanguageLabel) {
             listOf(SettingsChoice("device", deviceLanguageLabel)) + contentLanguageChoices.drop(1)
-        }
-    val appIconChoices =
-        AppIcon.entries.map { icon ->
-            SettingsChoice(
-                id = icon.name,
-                label = stringResource(icon.labelRes),
-                preview = {
-                    Box(Modifier.size(44.dp).clip(RoundedCornerShape(10.dp))) {
-                        icon.previewBackgroundRes?.let { background ->
-                            Image(painterResource(background), contentDescription = null, modifier = Modifier.matchParentSize())
-                        }
-                        Image(painterResource(icon.previewRes), contentDescription = null, modifier = Modifier.matchParentSize())
-                    }
-                },
-            )
         }
     val customFontFile = SharedPreferences.shared.androidCustomFontFile
     val hasCustomFont = AppFontManager.hasImportedFont(context, customFontFile)
@@ -433,7 +416,6 @@ fun SettingsScreen(
                             SettingsHostChoice.CONTENT_COUNTRY to contentCountryChoices,
                             SettingsHostChoice.APP_LANGUAGE to contentLanguageChoices,
                             SettingsHostChoice.LYRICS_TARGET_LANGUAGE to lyricsTargetLanguageChoices,
-                            SettingsHostChoice.APP_ICON to appIconChoices,
                         ),
                     onHostChoiceSelected = { choice, selected ->
                         when (choice) {
@@ -455,12 +437,6 @@ fun SettingsScreen(
 
                             SettingsHostChoice.LYRICS_TARGET_LANGUAGE -> {
                                 SharedPreferences.shared.lyricsAiTargetLanguage = selected
-                            }
-
-                            SettingsHostChoice.APP_ICON -> {
-                                val icon = AppIcon.fromPreference(selected)
-                                SharedPreferences.shared.appIcon = icon.name
-                                IconUtils.setIcon(context, icon)
                             }
 
                             SettingsHostChoice.ARTIST_ICON_SOURCE,

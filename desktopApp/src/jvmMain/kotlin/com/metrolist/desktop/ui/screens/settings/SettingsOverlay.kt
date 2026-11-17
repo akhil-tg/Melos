@@ -445,9 +445,6 @@ fun SettingsOverlay(colorScheme: ColorScheme) {
                                     Settings.shared.lyricsAiTargetLanguage = value
                                 }
 
-                                SettingsHostChoice.APP_ICON -> {
-                                }
-
                                 SettingsHostChoice.ARTIST_ICON_SOURCE -> {
                                     ArtistState.updateArtistIconSource(ArtistSource.valueOf(value))
                                 }

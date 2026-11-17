@@ -258,7 +258,6 @@ import com.metrolist.shared.ui.settings.SharedIntegrationsScreen
 import com.metrolist.shared.ui.settings.SharedSettingsHost
 import com.metrolist.shared.ui.settings.SharedSettingsScreen
 import com.metrolist.shared.ui.settings.applyIosAppLanguage
-import com.metrolist.shared.ui.settings.rememberIosAppIconActions
 import com.metrolist.shared.ui.settings.rememberIosFontActions
 import com.metrolist.shared.ui.settings.rememberIosLogExportAction
 import com.metrolist.shared.ui.theme.MdSpacing
@@ -1336,8 +1335,6 @@ fun MobileApp(
                             }
 
                             is MobileRoute.Settings -> {
-                                val iconError = stringResource(Res.string.error_unknown)
-                                val appIcons = rememberIosAppIconActions { onSwipeFeedback(iconError) }
                                 val systemDefaultLabel = stringResource(Res.string.app_language_system)
                                 val deviceLanguageLabel = stringResource(Res.string.device_language)
                                 val languageChoices =
@@ -1468,7 +1465,6 @@ fun MobileApp(
                                         onOpenPage = { page -> if (page == SettingsPageId.ABOUT) open(MobileRoute.About) },
                                         hostChoices =
                                             mapOf(
-                                                SettingsHostChoice.APP_ICON to appIcons.choices,
                                                 SettingsHostChoice.CONTENT_LANGUAGE to languageChoices,
                                                 SettingsHostChoice.CONTENT_COUNTRY to countryChoices,
                                                 SettingsHostChoice.APP_LANGUAGE to
@@ -1483,10 +1479,6 @@ fun MobileApp(
                                             ),
                                         onHostChoiceSelected = { choice, selected ->
                                             when (choice) {
-                                                SettingsHostChoice.APP_ICON -> {
-                                                    appIcons.select(selected)
-                                                }
-
                                                 SettingsHostChoice.CONTENT_LANGUAGE -> {
                                                     Settings.shared.contentLanguage = selected
                                                 }

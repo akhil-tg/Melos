@@ -189,7 +189,6 @@ class PortableSettingsTest {
         for (stringBacked in listOf(false, true)) {
             val source = Settings(FakeSettings(stringBacked))
             source.appLanguage = "fr"
-            source.appIcon = "MONOCHROME"
             source.dynamicTheme = false
             source.hideShortSongs = true
             source.maxSongCacheSize = 2048
@@ -205,7 +204,6 @@ class PortableSettingsTest {
             val expectedTypes =
                 mapOf(
                     "appLanguage" to SettingType.STRING,
-                    "appIcon" to SettingType.STRING,
                     "dynamicTheme" to SettingType.BOOLEAN,
                     "hideShortSongs" to SettingType.BOOLEAN,
                     "maxSongCacheSize" to SettingType.INT,

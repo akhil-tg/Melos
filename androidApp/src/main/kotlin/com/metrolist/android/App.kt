@@ -38,7 +38,7 @@ import com.metrolist.android.recognition.MusicRecognitionService
 import com.metrolist.android.ui.GlobalPlaybackNetworkMonitor
 import com.metrolist.android.update.AppUpdateManager
 import com.metrolist.android.utils.CrashHandler
-import com.metrolist.android.utils.IconUtils
+
 import com.metrolist.android.utils.SentryManager
 import com.metrolist.android.utils.createAppImageLoader
 import com.metrolist.android.utils.isAndroidTv
@@ -253,10 +253,6 @@ class App :
                 DiscordTokenStore.init(this@App)
                 DiscordRpcManager.init(GlobalYouTube.client)
             }
-        }
-
-        get<CoroutineScope>().launch {
-            IconUtils.syncWithPreference(this@App)
         }
 
         get<CoroutineScope>().launch {

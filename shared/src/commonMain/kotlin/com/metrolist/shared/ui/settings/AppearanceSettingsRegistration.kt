@@ -97,18 +97,6 @@ internal fun SettingsUiRegistryBuilder.registerAppearanceSettings(host: SharedSe
             ) { id ->
                 settings.themeMode = ThemeMode.valueOf(id)
             }
-            val appIconChoices = host.hostChoices[SettingsHostChoice.APP_ICON].orEmpty()
-            if (appIconChoices.isNotEmpty()) {
-                val selectedIconLabel = appIconChoices.firstOrNull { it.id == settings.appIcon }?.label
-                choice(
-                    id = "appIcon",
-                    title = stringResource(Res.string.appearance_app_icon),
-                    description = stringResource(Res.string.appearance_app_icon_credit),
-                    valueLabel = selectedIconLabel,
-                    choices = appIconChoices,
-                    selectedChoiceId = settings.appIcon,
-                ) { host.onHostChoiceSelected(SettingsHostChoice.APP_ICON, it) }
-            }
             switch(
                 id = "materialYou",
                 title = stringResource(Res.string.material_you),

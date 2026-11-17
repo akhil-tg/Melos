@@ -31,7 +31,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
-import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.painterResource
@@ -88,14 +87,8 @@ internal fun OnboardingContent(
                 Modifier
             },
         welcomeContent = { modifier ->
-            val iconRes =
-                if (MaterialTheme.colorScheme.background.luminance() < 0.5f) {
-                    R.drawable.app_icon_zenith_white_foreground
-                } else {
-                    R.drawable.app_icon_zenith_black_foreground
-                }
             Image(
-                painter = painterResource(iconRes),
+                painter = painterResource(R.drawable.ic_launcher_foreground),
                 contentDescription = null,
                 modifier = modifier,
             )

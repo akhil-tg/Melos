@@ -84,7 +84,6 @@ enum class SettingsHostChoice {
     CONTENT_COUNTRY,
     APP_LANGUAGE,
     LYRICS_TARGET_LANGUAGE,
-    APP_ICON,
     ARTIST_ICON_SOURCE,
     ARTIST_BANNER_SOURCE,
 }
