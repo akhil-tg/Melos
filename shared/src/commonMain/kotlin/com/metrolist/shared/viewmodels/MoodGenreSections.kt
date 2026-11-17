@@ -7,8 +7,8 @@ import com.metrolist.shared.model.SongItem
 // Moods & genres browse pages mix editorial carousels, song lists and community playlists in a
 // fixed InnerTube order; surface the predictable groups first instead.
 private const val FEATURED_PLAYLISTS_GROUP = 0
-private const val SONGS_GROUP = 1
-private const val COMMUNITY_PLAYLISTS_GROUP = 2
+private const val COMMUNITY_PLAYLISTS_GROUP = 1
+private const val SONGS_GROUP = 2
 private const val OTHER_GROUP = 3
 
 // The "YouTube Music" editorial author name is a brand, so it stays untranslated across locales.
@@ -32,7 +32,7 @@ internal fun moodGenreSectionGroup(section: HomeSection): Int =
     }
 
 /**
- * Reorders moods & genres sections: featured (editorial) playlists, songs, community playlists,
+ * Reorders moods & genres sections: featured (editorial) playlists, community playlists, songs,
  * then everything else keeping its relative order. Kotlin sorts are stable, so sections within
  * the same group keep their original order.
  */

@@ -9,7 +9,7 @@ import kotlin.test.assertEquals
 
 class MoodGenreSectionsTest {
     @Test
-    fun featuredPlaylistsComeFirstFollowedBySongsThenCommunityPlaylists() {
+    fun featuredPlaylistsComeFirstFollowedByCommunityPlaylistsThenSongs() {
         val featured = HomeSection("Featured", listOf(playlist("PL1"), playlist("PL2", author = "YouTube Music")))
         val songs = HomeSection("Top songs", listOf(song("s1"), song("s2")))
         val community = HomeSection("Community", listOf(playlist("PL3", author = "Chill Hits")))
@@ -18,7 +18,7 @@ class MoodGenreSectionsTest {
         val reordered =
             reorderMoodGenreSections(listOf(other, community, songs, featured))
 
-        assertEquals(listOf(featured, songs, community, other), reordered)
+        assertEquals(listOf(featured, community, songs, other), reordered)
     }
 
     @Test
@@ -30,7 +30,7 @@ class MoodGenreSectionsTest {
 
         val reordered = reorderMoodGenreSections(listOf(community1, songs1, songs2, community2))
 
-        assertEquals(listOf(songs1, songs2, community1, community2), reordered)
+        assertEquals(listOf(community1, community2, songs1, songs2), reordered)
     }
 
     @Test
@@ -42,11 +42,11 @@ class MoodGenreSectionsTest {
     }
 
     @Test
-    fun mixedCommunityAndEditorialCarouselCountsAsCommunity() {
+    fun communityCarouselComesBeforeSongs() {
         val mixed = HomeSection("Mixed", listOf(playlist("PL1", author = "YouTube Music"), playlist("PL2", author = "Rap Caviar")))
         val songs = HomeSection("Songs", listOf(song("s1")))
 
-        assertEquals(listOf(songs, mixed), reorderMoodGenreSections(listOf(mixed, songs)))
+        assertEquals(listOf(mixed, songs), reorderMoodGenreSections(listOf(mixed, songs)))
     }
 
     @Test
