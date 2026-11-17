@@ -236,7 +236,9 @@ import com.metrolist.android.ui.utils.appBarScrollBehavior
 import com.metrolist.android.ui.utils.resetHeightOffset
 import com.metrolist.android.update.AppUpdateManager
 import com.metrolist.android.update.AppUpdateState
+import com.metrolist.android.update.ForceUpdateGate
 import com.metrolist.android.update.GitHubRelease
+import com.metrolist.android.update.isForcedForCurrentVersion
 import com.metrolist.android.utils.isAndroidAutomotive
 import com.metrolist.android.utils.isAndroidTv
 import com.metrolist.android.utils.startActivitySafely
@@ -588,6 +590,7 @@ fun MetrolistApp(
                     Settings.shared.launchesSinceUpdatePrompt = launches
                 }
             }
+            if (available != null && available.isForcedForCurrentVersion()) updatePrompt = null
             if (wasUpdated) {
                 installedReleaseNotes =
                     AppUpdateManager.pendingReleaseForInstalledVersion()
@@ -633,6 +636,23 @@ fun MetrolistApp(
                     TextButton(onClick = { updatePrompt = null }, shapes = ButtonDefaults.shapes()) {
                         Text(stringResource(Res.string.action_not_now))
                     }
+                },
+            )
+        }
+
+        val forcedUpdateRelease =
+            when (val updateState = appUpdateState) {
+                is AppUpdateState.Available -> updateState.release.takeIf { it.isForcedForCurrentVersion() }
+                is AppUpdateState.Downloading -> updateState.release.takeIf { it.isForcedForCurrentVersion() }
+                is AppUpdateState.Downloaded -> updateState.release.takeIf { it.isForcedForCurrentVersion() }
+                else -> null
+            }
+        forcedUpdateRelease?.let { release ->
+            ForceUpdateGate(
+                release = release,
+                onUpdate = {
+                    navigator.navigate(Screen.UpdateDetails)
+                    updateScope.launch { AppUpdateManager.download(context, release) }
                 },
             )
         }

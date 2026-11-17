@@ -60,11 +60,39 @@ data class GitHubRelease(
                         BLOCKED_APK_MARKERS.none { marker -> asset.name.contains(marker, ignoreCase = true) }
                 }
             val preferredNames =
-                PREFERRED_APK_NAMES + listOf("metrolist-android-$version.apk", "metrolist-android-$version-universal.apk")
+                PREFERRED_APK_NAMES +
+                    listOf(
+                        "melos-android-$version.apk",
+                        "melos-android-$version-universal.apk",
+                        "metrolist-android-$version.apk",
+                        "metrolist-android-$version-universal.apk",
+                    )
             return preferredNames.firstNotNullOfOrNull { preferred ->
                 candidates.singleOrNull { it.name.equals(preferred, ignoreCase = true) }
             }
         }
+}
+
+private const val FORCE_MIN_VERSION_PREFIX = "FORCE_MIN_VERSION:"
+
+/**
+ * Reads the FORCE_MIN_VERSION:<x.y.z> marker from a release body.
+ * Returns null when the marker is absent.
+ */
+fun GitHubRelease.forcedMinimumVersion(): String? {
+    val index = body?.indexOf(FORCE_MIN_VERSION_PREFIX, ignoreCase = true) ?: return null
+    if (index < 0) return null
+    val raw = Regex("\\d+\\.\\d+(\\.\\d+)?").find(body.substring(index))?.value ?: return null
+    val parts = raw.split('.')
+    // ReleaseVersion needs three numeric parts; pad two-part minimums.
+    return (parts + listOf("0", "0")).take(3).joinToString(".")
+}
+
+/** True when the installed version is below the release's forced minimum. */
+fun GitHubRelease.isForcedForCurrentVersion(): Boolean {
+    val minimum = forcedMinimumVersion() ?: return false
+    val current = ReleaseVersion.parse(AppUpdateManager.currentVersion) ?: return false
+    return ReleaseVersion.parse(minimum)?.let { current < it } == true
 }
 
 @Serializable
@@ -110,7 +138,7 @@ enum class UpdateFailure { CHECK, NO_APK, DOWNLOAD, DIGEST, INSTALL }
 
 object AppUpdateManager {
     const val CHANNEL_ID = "updates"
-    private const val RELEASES_URL = "https://api.github.com/repos/MetrolistGroup/Metrolist/releases?per_page=50"
+    private const val RELEASES_URL = "https://api.github.com/repos/akhil-tg/Melos/releases?per_page=50"
     private const val NOTIFICATION_ID = 1400
     private const val MAX_APK_BYTES = 512L * 1024 * 1024
     private const val MIN_FREE_SPACE_BYTES = 16L * 1024 * 1024
@@ -521,6 +549,9 @@ private const val CHECK_INTERVAL_MILLIS = 60 * 60 * 1_000L
 private const val CACHE_SOURCE = "github-releases-metrolist-v1"
 private val PREFERRED_APK_NAMES =
     listOf(
+        "Melos-with-Google-Cast.apk",
+        "Melos.apk",
+        "Melos-Android-release.apk",
         "Metrolist.apk",
         "Metrolist-Android-release.apk",
         "androidApp-release.apk",

@@ -245,7 +245,7 @@ val aboutCommunityLinks: List<AboutCommunityLink> =
     listOf(
         AboutCommunityLink(AboutCommunityLinkKind.DISCORD, "https://discord.com/invite/zrdbeRG2Mt"),
         AboutCommunityLink(AboutCommunityLinkKind.TELEGRAM, "https://t.me/metrolistapp"),
-        AboutCommunityLink(AboutCommunityLinkKind.REPOSITORY, "https://github.com/MetrolistGroup/Metrolist"),
+        AboutCommunityLink(AboutCommunityLinkKind.REPOSITORY, "https://github.com/akhil-tg/Melos"),
     )
 
 val aboutLicenseLink: AboutCommunityLink =
