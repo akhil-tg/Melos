@@ -1,3 +1,26 @@
+---v14.0.2
+# Melos 14.0.2
+
+## Highlights
+- Rebranded the app to Melos with a new launcher, store and in-app icon set
+- Moods & genres pages now list playlists before songs and keep that order while more content loads
+- New player defaults: animated gradient background, wavy progress slider and music-video playback off
+- Update settings can offer nightly builds after every change
+
+## Fixes
+- Released the media session even when saving state fails
+- Shuffled the whole playlist after starting playback from a song
+- Wrapped Previous to the last track with Repeat All on Android
+- Kept desktop dialog buttons clickable under the expanded player title bar and registered FileKit's Windows file dialog types for the native image
+- Skipped Quick Settings tile refresh in secondary profiles
+- Showed the light icon everywhere on Android 12+ and in About
+
+## Changes
+- Dropped the share-app APK option from update settings
+- Updated InnerTubeX to v0.11.9
+
+Full changelog: https://github.com/MetrolistGroup/Metrolist/commits/v14.0.2
+
 ---v14.0.0
 # First public multiplatform release
 Metrolist 14.0.0 replaces the standalone Android app with Metrolist-KMP.

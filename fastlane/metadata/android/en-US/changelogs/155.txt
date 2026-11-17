@@ -1,0 +1,5 @@
+Rebranded to Melos with a new icon set.
+Moods & genres pages now list playlists before songs, keeping that order while scrolling.
+New defaults: animated gradient background, wavy progress slider, music-video playback off.
+Nightly builds can be enabled in update settings.
+Playback, Android TV and desktop dialog fixes; InnerTubeX updated to v0.11.9.
