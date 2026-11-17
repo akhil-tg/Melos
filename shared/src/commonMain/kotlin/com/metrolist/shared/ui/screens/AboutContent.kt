@@ -35,9 +35,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.metrolist.shared.generated.resources.Res
 import com.metrolist.shared.generated.resources.about
-import com.metrolist.shared.generated.resources.brand_discord
-import com.metrolist.shared.generated.resources.brand_github
+import com.metrolist.shared.generated.resources.brand_instagram
 import com.metrolist.shared.generated.resources.brand_telegram
+import com.metrolist.shared.generated.resources.brand_website
 import com.metrolist.shared.generated.resources.credits_android_designer
 import com.metrolist.shared.generated.resources.credits_android_developer
 import com.metrolist.shared.generated.resources.credits_android_lead
@@ -46,6 +46,7 @@ import com.metrolist.shared.generated.resources.credits_creator
 import com.metrolist.shared.generated.resources.credits_creator_section
 import com.metrolist.shared.generated.resources.credits_desktop_developer
 import com.metrolist.shared.generated.resources.credits_desktop_lead
+import com.metrolist.shared.generated.resources.credits_lead_developer
 import com.metrolist.shared.generated.resources.credits_leads_section
 import com.metrolist.shared.generated.resources.credits_license_desc
 import com.metrolist.shared.generated.resources.credits_license_name
@@ -73,6 +74,7 @@ fun rememberAboutScreenText(): AboutScreenText =
         creatorSection = sharedStringResource(Res.string.credits_creator_section),
         leadsSection = sharedStringResource(Res.string.credits_leads_section),
         collaborators = sharedStringResource(Res.string.credits_collaborators_section),
+        leadDeveloperRole = sharedStringResource(Res.string.credits_lead_developer),
         creatorRole = sharedStringResource(Res.string.credits_creator),
         androidLeadRole = sharedStringResource(Res.string.credits_android_lead),
         desktopLeadRole = sharedStringResource(Res.string.credits_desktop_lead),
@@ -85,14 +87,15 @@ fun rememberAboutScreenText(): AboutScreenText =
         lyricsUiServicesRole = sharedStringResource(Res.string.credits_lyrics_ui_services),
         androidDesignerRole = sharedStringResource(Res.string.credits_android_designer),
         wearOsDesignerRole = sharedStringResource(Res.string.credits_wearos_designer),
-        discord = sharedStringResource(Res.string.brand_discord),
+        website = sharedStringResource(Res.string.brand_website),
         telegram = sharedStringResource(Res.string.brand_telegram),
-        github = sharedStringResource(Res.string.brand_github),
+        instagram = sharedStringResource(Res.string.brand_instagram),
         license = sharedStringResource(Res.string.credits_license_name),
         licenseDescription = sharedStringResource(Res.string.credits_license_desc),
     )
 
 enum class AboutContributorRole {
+    LEAD_DEVELOPER,
     CREATOR,
     ANDROID_LEAD,
     DESKTOP_LEAD,
@@ -137,102 +140,25 @@ data class AboutContributor(
 object AboutContributors {
     val lead: AboutContributor =
         AboutContributor(
-            name = "Mo Agamy",
-            role = AboutContributorRole.CREATOR,
-            githubHandle = "mostafaalagamy",
-            sponsorUrl = "https://buymeacoffee.com/mostafaalagamy",
+            name = "Akhil TG",
+            role = AboutContributorRole.LEAD_DEVELOPER,
+            githubHandle = "akhil-tg",
+            customAvatarUrl = "https://raw.githubusercontent.com/akhil-tg/Melos_web/main/Dev.png",
             avatarShape = AboutAvatarShape.COOKIE_9_SIDED,
-            favoriteSongVideoId = "Mh2JWGWvy_Y",
+            favoriteSongVideoId = "FdMG84qN_98",
         )
 
-    val leads: List<AboutContributor> =
-        listOf(
-            AboutContributor(
-                name = "Lamp",
-                role = AboutContributorRole.DESKTOP_LEAD,
-                githubHandle = "l6t9",
-                websiteUrl = "https://lampu.dev",
-                sponsorUrl = "https://github.com/sponsors/l6t9",
-                avatarShape = AboutAvatarShape.COOKIE_9_SIDED,
-            ),
-            AboutContributor(
-                name = "Nyx",
-                role = AboutContributorRole.ANDROID_LEAD,
-                githubHandle = "nyxiereal",
-                websiteUrl = "https://nyx.meowery.eu",
-                sponsorUrl = "https://github.com/sponsors/nyxiereal",
-                avatarShape = AboutAvatarShape.COOKIE_9_SIDED,
-            ),
-        ).sortedBy { it.name.lowercase() }
+    val leads: List<AboutContributor> = emptyList()
 
-    val collaborators: List<AboutContributor> =
-        listOf(
-            AboutContributor(
-                name = "Adriel O'Connel",
-                role = AboutContributorRole.MULTIPLATFORM_DEVELOPMENT,
-                githubHandle = "adrielGGmotion",
-                sponsorUrl = "https://github.com/sponsors/adrielGGmotion",
-                avatarShape = AboutAvatarShape.COOKIE_4_SIDED,
-                favoriteSongVideoId = "m2zUrruKjDQ",
-            ),
-            AboutContributor(
-                name = "Show",
-                role = AboutContributorRole.ANDROID_DESIGNER,
-                githubHandle = "showtc",
-                avatarShape = AboutAvatarShape.COOKIE_6_SIDED,
-            ),
-            AboutContributor(
-                name = "Ibra Al Tabian",
-                role = AboutContributorRole.LYRICS_UI_SERVICES,
-                githubHandle = "ibratabian17",
-                sponsorUrl = "https://ko-fi.com/ibratabian17",
-                avatarShape = AboutAvatarShape.SUNNY,
-            ),
-            AboutContributor(
-                name = "Ismail Tiryaki",
-                role = AboutContributorRole.MULTIPLATFORM_DEVELOPMENT,
-                githubHandle = "isotjs",
-                websiteUrl = "https://ismailtiryaki.dev",
-                avatarShape = AboutAvatarShape.GEM,
-                favoriteSongVideoId = "NdAYM9Voudg",
-            ),
-            AboutContributor(
-                name = "Alessio Attilio",
-                role = AboutContributorRole.MULTIPLATFORM_DEVELOPMENT,
-                githubHandle = "kairosci",
-                websiteUrl = "https://kairosci.vercel.app",
-                sponsorUrl = "https://github.com/sponsors/kairosci",
-                avatarShape = AboutAvatarShape.COOKIE_6_SIDED,
-            ),
-            AboutContributor(
-                name = "Applxcake",
-                role = AboutContributorRole.MACOS_DEVELOPMENT,
-                githubHandle = "applxcake",
-                sponsorUrl = "https://github.com/sponsors/applxcake",
-                avatarShape = AboutAvatarShape.PUFFY_DIAMOND,
-            ),
-            AboutContributor(
-                name = "AlexxBytes",
-                role = AboutContributorRole.DESKTOP_DEVELOPMENT,
-                githubHandle = "alexxbytes",
-                sponsorUrl = "https://github.com/sponsors/alexxbytes",
-                avatarShape = AboutAvatarShape.COOKIE_4_SIDED,
-            ),
-            AboutContributor(
-                name = "Tryfle",
-                role = AboutContributorRole.MACOS_DEVELOPMENT,
-                githubHandle = "Tryflle",
-                avatarShape = AboutAvatarShape.BURST,
-            ),
-        ).sortedBy { it.name.lowercase() }
+    val collaborators: List<AboutContributor> = emptyList()
 
-    val all: List<AboutContributor> = listOf(lead) + leads + collaborators
+    val all: List<AboutContributor> = listOf(lead)
 }
 
 enum class AboutCommunityLinkKind {
-    DISCORD,
+    WEBSITE,
     TELEGRAM,
-    REPOSITORY,
+    INSTAGRAM,
     LICENSE,
 }
 
@@ -243,19 +169,20 @@ data class AboutCommunityLink(
 
 val aboutCommunityLinks: List<AboutCommunityLink> =
     listOf(
-        AboutCommunityLink(AboutCommunityLinkKind.DISCORD, "https://discord.com/invite/zrdbeRG2Mt"),
-        AboutCommunityLink(AboutCommunityLinkKind.TELEGRAM, "https://t.me/metrolistapp"),
-        AboutCommunityLink(AboutCommunityLinkKind.REPOSITORY, "https://github.com/akhil-tg/Melos"),
+        AboutCommunityLink(AboutCommunityLinkKind.WEBSITE, "https://akhil-tg.github.io/Melos_web/"),
+        AboutCommunityLink(AboutCommunityLinkKind.TELEGRAM, "https://t.me/monstervlc_bot"),
+        AboutCommunityLink(AboutCommunityLinkKind.INSTAGRAM, "https://www.instagram.com/akhil.tg_"),
     )
 
 val aboutLicenseLink: AboutCommunityLink =
-    AboutCommunityLink(AboutCommunityLinkKind.LICENSE, "https://github.com/MetrolistGroup/Metrolist/blob/main/LICENSE")
+    AboutCommunityLink(AboutCommunityLinkKind.LICENSE, "https://github.com/akhil-tg/Melos")
 
 data class AboutScreenText(
     val title: String,
     val creatorSection: String,
     val leadsSection: String,
     val collaborators: String,
+    val leadDeveloperRole: String,
     val creatorRole: String,
     val androidLeadRole: String,
     val desktopLeadRole: String,
@@ -268,14 +195,15 @@ data class AboutScreenText(
     val lyricsUiServicesRole: String,
     val androidDesignerRole: String,
     val wearOsDesignerRole: String,
-    val discord: String,
+    val website: String,
     val telegram: String,
-    val github: String,
+    val instagram: String,
     val license: String,
     val licenseDescription: String,
 ) {
     fun roleLabel(role: AboutContributorRole): String =
         when (role) {
+            AboutContributorRole.LEAD_DEVELOPER -> leadDeveloperRole
             AboutContributorRole.CREATOR -> creatorRole
             AboutContributorRole.ANDROID_LEAD -> androidLeadRole
             AboutContributorRole.DESKTOP_LEAD -> desktopLeadRole
@@ -292,9 +220,9 @@ data class AboutScreenText(
 
     fun communityLabel(kind: AboutCommunityLinkKind): String =
         when (kind) {
-            AboutCommunityLinkKind.DISCORD -> discord
+            AboutCommunityLinkKind.WEBSITE -> website
             AboutCommunityLinkKind.TELEGRAM -> telegram
-            AboutCommunityLinkKind.REPOSITORY -> github
+            AboutCommunityLinkKind.INSTAGRAM -> instagram
             AboutCommunityLinkKind.LICENSE -> license
         }
 }
@@ -310,9 +238,9 @@ internal fun CommunitySection(
                 PlayerMenuAction(
                     icon =
                         when (link.kind) {
-                            AboutCommunityLinkKind.DISCORD -> MetrolistIconsBrand.Discord
+                            AboutCommunityLinkKind.WEBSITE -> MetrolistIcons.Outlined.Language
                             AboutCommunityLinkKind.TELEGRAM -> MetrolistIconsBrand.Telegram
-                            AboutCommunityLinkKind.REPOSITORY -> MetrolistIconsBrand.Github
+                            AboutCommunityLinkKind.INSTAGRAM -> MetrolistIconsBrand.Instagram
                             AboutCommunityLinkKind.LICENSE -> MetrolistIcons.Outlined.Info
                         },
                     title = text.communityLabel(link.kind),
@@ -332,6 +260,7 @@ fun AuthorInfoSheet(
 ) {
     val roleLabel =
         when (contributor.role) {
+            AboutContributorRole.LEAD_DEVELOPER -> sharedStringResource(Res.string.credits_lead_developer)
             AboutContributorRole.CREATOR -> sharedStringResource(Res.string.credits_creator)
             AboutContributorRole.ANDROID_LEAD -> sharedStringResource(Res.string.credits_android_lead)
             AboutContributorRole.DESKTOP_LEAD -> sharedStringResource(Res.string.credits_desktop_lead)

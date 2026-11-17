@@ -225,23 +225,27 @@ fun AboutScreen(
                 onContributorLongClick = onContributorLongClick,
             )
 
-            CollaboratorsList(
-                contributors = AboutContributors.leads,
-                text = text,
-                title = text.leadsSection,
-                avatarSize = 64.dp,
-                colorScheme = colorScheme,
-                onContributorClick = { selectedContributor = it },
-                onContributorLongClick = onContributorLongClick,
-            )
+            if (AboutContributors.leads.isNotEmpty()) {
+                CollaboratorsList(
+                    contributors = AboutContributors.leads,
+                    text = text,
+                    title = text.leadsSection,
+                    avatarSize = 64.dp,
+                    colorScheme = colorScheme,
+                    onContributorClick = { selectedContributor = it },
+                    onContributorLongClick = onContributorLongClick,
+                )
+            }
 
-            CollaboratorsList(
-                contributors = AboutContributors.collaborators,
-                text = text,
-                colorScheme = colorScheme,
-                onContributorClick = { selectedContributor = it },
-                onContributorLongClick = onContributorLongClick,
-            )
+            if (AboutContributors.collaborators.isNotEmpty()) {
+                CollaboratorsList(
+                    contributors = AboutContributors.collaborators,
+                    text = text,
+                    colorScheme = colorScheme,
+                    onContributorClick = { selectedContributor = it },
+                    onContributorLongClick = onContributorLongClick,
+                )
+            }
 
             Text(
                 text = text.licenseDescription,

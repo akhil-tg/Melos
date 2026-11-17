@@ -8,20 +8,17 @@ package com.metrolist.android.ui.screens.settings
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.unit.dp
 import com.metrolist.android.BuildConfig
 import com.metrolist.android.LocalMiniPlayerBottomInset
 import com.metrolist.android.playback.LocalPlayerConnection
 import com.metrolist.android.playback.resolveIncomingPlaybackSong
-import com.metrolist.shared.discord.openDiscordUrl
 import com.metrolist.shared.generated.resources.Res
 import com.metrolist.shared.generated.resources.app_name
 import com.metrolist.shared.generated.resources.logo
 import com.metrolist.shared.generated.resources.youtube_music
 import com.metrolist.shared.state.GlobalYouTubeRepository
-import com.metrolist.shared.ui.screens.AboutCommunityLinkKind
 import com.metrolist.shared.ui.screens.AboutScreen
 import com.metrolist.shared.ui.settings.LocalSettingsPageHasTopBar
 import kotlinx.coroutines.launch
@@ -33,7 +30,6 @@ fun AndroidAboutScreen(
     onNavigateBack: () -> Unit,
     onDevtoolsUnlocked: () -> Unit = {},
 ) {
-    val context = LocalContext.current
     val uriHandler = LocalUriHandler.current
     val miniPlayerInset = LocalMiniPlayerBottomInset.current
     val playerConnection = LocalPlayerConnection.current
@@ -49,11 +45,8 @@ fun AndroidAboutScreen(
         bottomInset = miniPlayerInset,
         onNavigateBack = onNavigateBack.takeUnless { LocalSettingsPageHasTopBar.current },
         onOpenCommunityLink = { link ->
-            if (link.kind == AboutCommunityLinkKind.DISCORD) {
-                runCatching { context.openDiscordUrl(link.url) }
-            } else {
-                runCatching { uriHandler.openUri(link.url) }
-            }
+            runCatching { uriHandler.openUri(link.url) }
+            Unit
         },
         onDevtoolsUnlocked = onDevtoolsUnlocked,
         onPlayFavoriteSong =
