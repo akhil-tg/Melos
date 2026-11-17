@@ -27,7 +27,6 @@ import com.metrolist.shared.constants.AnimatedArtworkCacheSizeKey
 import com.metrolist.shared.constants.AnimatedCoverCacheJsonKey
 import com.metrolist.shared.constants.AnimatedCoverCacheSizeKey
 import com.metrolist.shared.constants.AnimatedCoverResolutionKey
-import com.metrolist.shared.constants.EnableHapticFeedbackKey
 import com.metrolist.shared.constants.AppLanguageKey
 import com.metrolist.shared.constants.AppleMusicArtistCacheJsonKey
 import com.metrolist.shared.constants.AppleMusicArtistImagesKey
@@ -351,8 +350,8 @@ class Settings(
 
     val isPlayerCastButtonVisible: Boolean
         get() = castEnabled && showPlayerCastButton
-    var playerBackgroundStyle by preference(PlayerBackgroundStyle.SOLID)
-    var sliderStyle by preference(SliderStyle.DEFAULT)
+    var playerBackgroundStyle by preference(PlayerBackgroundStyle.ANIMATED_GRADIENT)
+    var sliderStyle by preference(SliderStyle.WAVY)
     var sliderTrackThicknessDp by preference(SliderTrackThicknessDpKey, 5f)
     var playbackSpeed by preference(PlaybackSpeedKey, 1f)
     var playbackPitch by preference(PlaybackPitchKey, 1f)
@@ -705,7 +704,7 @@ class Settings(
     var animatedArtworkCacheSize by preference(AnimatedArtworkCacheSizeKey, 2048)
 
     var musicVideoCacheJson by preference(MusicVideoCacheJsonKey, "{}")
-    var musicVideoPlaybackEnabled by preference(MusicVideoPlaybackEnabledKey, true)
+    var musicVideoPlaybackEnabled by preference(MusicVideoPlaybackEnabledKey, false)
     var musicVideoQuality by preference(MusicVideoQualityKey, MusicVideoQuality.AUTO)
     var youtubeCanvasQuality by preference(YouTubeCanvasQualityKey, MusicVideoQuality.P480)
     var youtubeCanvasMode by preference(YouTubeCanvasModeKey, YouTubeCanvasMode.SHORT_CLIPS)
