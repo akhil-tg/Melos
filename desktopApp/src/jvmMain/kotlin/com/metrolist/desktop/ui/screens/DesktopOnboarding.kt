@@ -40,7 +40,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.ColorFilter
-import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.semantics.LiveRegionMode
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.heading
@@ -77,7 +76,6 @@ import com.metrolist.shared.generated.resources.onboarding_sentry_private
 import com.metrolist.shared.generated.resources.onboarding_settings_hint
 import com.metrolist.shared.generated.resources.onboarding_step_of
 import com.metrolist.shared.generated.resources.onboarding_welcome_privacy_description
-import com.metrolist.shared.generated.resources.privacy_policy
 import com.metrolist.shared.generated.resources.restore_from_backup
 import com.metrolist.shared.generated.resources.settings_localization
 import com.metrolist.shared.generated.resources.settings_playback
@@ -367,15 +365,6 @@ private fun DesktopOnboardingPage(
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(8.dp),
                 ) {
-                    if (content.page == OnboardingPage.WELCOME || content.page == OnboardingPage.CRASH_REPORTS) {
-                        val uriHandler = LocalUriHandler.current
-                        TextButton(
-                            onClick = { runCatching { uriHandler.openUri("https://metrolist.cc/privacy") } },
-                            shapes = ButtonDefaults.shapes(),
-                        ) {
-                            Text(stringResource(Res.string.privacy_policy))
-                        }
-                    }
                     Spacer(Modifier.weight(1f))
                     content.onBack?.let { back ->
                         TextButton(

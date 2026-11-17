@@ -48,7 +48,6 @@ import com.metrolist.shared.generated.resources.onboarding_sentry_opt_in
 import com.metrolist.shared.generated.resources.onboarding_sentry_private
 import com.metrolist.shared.generated.resources.onboarding_settings_hint
 import com.metrolist.shared.generated.resources.onboarding_welcome_privacy_description
-import com.metrolist.shared.generated.resources.privacy_policy
 import com.metrolist.shared.generated.resources.restore_from_backup
 import com.metrolist.shared.generated.resources.side_menu_welcome
 import com.metrolist.shared.generated.resources.yes

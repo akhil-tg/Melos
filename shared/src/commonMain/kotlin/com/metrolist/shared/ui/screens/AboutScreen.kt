@@ -83,7 +83,6 @@ import com.metrolist.shared.generated.resources.build_type_release
 import com.metrolist.shared.generated.resources.devmode_already_active
 import com.metrolist.shared.generated.resources.devtools_enabled
 import com.metrolist.shared.generated.resources.play
-import com.metrolist.shared.generated.resources.stands_with_palestine
 import com.metrolist.shared.settings.Settings
 import com.metrolist.shared.ui.components.images.AsyncImage
 import com.metrolist.shared.ui.icons.MetrolistIcons
@@ -258,14 +257,6 @@ fun AboutScreen(
                         .clip(MaterialTheme.shapes.medium)
                         .clickable(role = Role.Button, onClickLabel = text.license) { openCommunityLink(aboutLicenseLink) }
                         .padding(16.dp),
-            )
-
-            Text(
-                text = stringResource(Res.string.stands_with_palestine),
-                style = MaterialTheme.typography.labelLarge,
-                fontWeight = FontWeight.Bold,
-                textAlign = TextAlign.Center,
-                color = colorScheme.onSurfaceVariant,
             )
         }
     }

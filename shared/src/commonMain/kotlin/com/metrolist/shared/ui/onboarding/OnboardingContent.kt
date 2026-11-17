@@ -31,7 +31,6 @@ import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
@@ -62,7 +61,6 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.graphics.drawscope.withTransform
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.semantics.LiveRegionMode
 import androidx.compose.ui.semantics.heading
 import androidx.compose.ui.semantics.liveRegion
@@ -80,8 +78,6 @@ import com.metrolist.shared.generated.resources.Res
 import com.metrolist.shared.generated.resources.app_name
 import com.metrolist.shared.generated.resources.onboarding_notification_downloads
 import com.metrolist.shared.generated.resources.onboarding_notification_playback
-import com.metrolist.shared.generated.resources.onboarding_privacy_open_failed
-import com.metrolist.shared.generated.resources.onboarding_privacy_policy
 import com.metrolist.shared.generated.resources.onboarding_sentry_diagnostics
 import com.metrolist.shared.generated.resources.onboarding_sentry_opt_in
 import com.metrolist.shared.generated.resources.onboarding_sentry_private
@@ -295,10 +291,6 @@ private fun OnboardingPageLayout(
                                         }
                                     }
                                 }
-                                if (pageContent.page == OnboardingPage.CRASH_REPORTS || pageWelcome) {
-                                    Spacer(Modifier.height(16.dp))
-                                    PrivacyLink()
-                                }
                                 featureContent(pageContent.page)
                                 pageContent.error?.let {
                                     Text(
@@ -321,29 +313,6 @@ private fun OnboardingPageLayout(
                         .padding(horizontal = gutter, vertical = 16.dp),
                 )
             }
-        }
-    }
-}
-
-@Composable
-private fun PrivacyLink() {
-    val uriHandler = LocalUriHandler.current
-    val privacyUrl = "https://metrolist.cc/privacy"
-    var openFailed by remember { mutableStateOf(false) }
-    Column {
-        TextButton(
-            onClick = { openFailed = runCatching { uriHandler.openUri(privacyUrl) }.isFailure },
-            shapes = ButtonDefaults.shapes(),
-        ) {
-            Text(stringResource(Res.string.onboarding_privacy_policy))
-        }
-        if (openFailed) {
-            Text(
-                stringResource(Res.string.onboarding_privacy_open_failed),
-                color = MaterialTheme.colorScheme.error,
-                modifier = Modifier.semantics { liveRegion = LiveRegionMode.Polite },
-            )
-            SelectionContainer { Text(privacyUrl) }
         }
     }
 }
