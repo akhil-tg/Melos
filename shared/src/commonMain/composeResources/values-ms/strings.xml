@@ -242,7 +242,7 @@
     <string name="credits_license_desc">Melos dilesenkan di bawah GPL-3.0</string>
     <string name="devmode_already_active" translatable="true">Mod pembangun sudah aktif</string>
     <string name="discord_enable_rich_presence">Aktifkan Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Dengar Melos</string>
+    <string name="discord_listen_to_Melos">Dengar Melos</string>
     <string name="discord_login_description">Sambungkan akaun Discord anda</string>
     <string name="discord_rich_presence">Rich presence</string>
     <string name="discord_state">Keadaan</string>
@@ -1076,7 +1076,7 @@
     <string name="top_period_past_year">Tahun lalu</string>
     <string name="onboarding_welcome_description">Sediakan privasi dan kebenaran sistem sebelum mendengar buat kali pertama.</string>
     <string name="onboarding_migration_title">Pustaka v13 anda ada di sini</string>
-    <string name="onboarding_migration_description">Kami menemui pangkalan data Metrolist kendiri. Pindahkan senarai lagu, sejarah, lagu disukai dan data pustaka di tempat yang sama. Anda boleh memulihkan pangkalan data asal jika pemindahan gagal.</string>
+    <string name="onboarding_migration_description">Kami menemui pangkalan data Melos kendiri. Pindahkan senarai lagu, sejarah, lagu disukai dan data pustaka di tempat yang sama. Anda boleh memulihkan pangkalan data asal jika pemindahan gagal.</string>
     <string name="onboarding_migration_complete_title">Akaun anda telah dipindahkan</string>
     <string name="onboarding_migration_complete_description">Akaun, senarai lagu, sejarah, lagu disukai dan data pustaka anda sudah tersedia dalam versi Melos ini.</string>
     <string name="onboarding_crash_reports_title">Bantu menambah baik Melos</string>

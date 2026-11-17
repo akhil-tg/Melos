@@ -229,7 +229,7 @@
     <string name="top_period_past_year">Pastarieji metai</string>
     <string name="onboarding_welcome_description">Prieš pirmą kartą klausydamiesi nustatykite privatumą ir sistemos leidimus.</string>
     <string name="onboarding_migration_title">Jūsų v13 biblioteka yra čia</string>
-    <string name="onboarding_migration_description">Radome atskirą „Metrolist“ duomenų bazę. Perkelkite grojaraščius, istoriją, patiktukus ir bibliotekos duomenis vietoje. Jei perkėlimas nepavyks, galėsite atkurti pradinę duomenų bazę.</string>
+    <string name="onboarding_migration_description">Radome atskirą „Melos“ duomenų bazę. Perkelkite grojaraščius, istoriją, patiktukus ir bibliotekos duomenis vietoje. Jei perkėlimas nepavyks, galėsite atkurti pradinę duomenų bazę.</string>
     <string name="onboarding_migration_complete_title">Jūsų paskyra perkelta</string>
     <string name="onboarding_migration_complete_description">Jūsų paskyra, grojaraščiai, istorija, patiktukai ir bibliotekos duomenys paruošti šioje „Melos“ versijoje.</string>
     <string name="onboarding_crash_reports_title">Padėkite tobulinti „Melos“</string>

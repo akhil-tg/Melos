@@ -396,7 +396,7 @@
     <string name="top_period_past_year">Τελευταίο έτος</string>
     <string name="onboarding_welcome_description">Ρυθμίστε το απόρρητο και τις άδειες συστήματος πριν ακούσετε για πρώτη φορά.</string>
     <string name="onboarding_migration_title">Η βιβλιοθήκη σας από την v13 είναι εδώ</string>
-    <string name="onboarding_migration_description">Βρήκαμε μια ανεξάρτητη βάση δεδομένων του Metrolist. Μεταφέρετε επιτόπου τις λίστες αναπαραγωγής, το ιστορικό, τις επισημάνσεις «Μου αρέσει» και τα δεδομένα της βιβλιοθήκης. Μπορείτε να ανακτήσετε την αρχική βάση δεδομένων αν η μεταφορά αποτύχει.</string>
+    <string name="onboarding_migration_description">Βρήκαμε μια ανεξάρτητη βάση δεδομένων του Melos. Μεταφέρετε επιτόπου τις λίστες αναπαραγωγής, το ιστορικό, τις επισημάνσεις «Μου αρέσει» και τα δεδομένα της βιβλιοθήκης. Μπορείτε να ανακτήσετε την αρχική βάση δεδομένων αν η μεταφορά αποτύχει.</string>
     <string name="onboarding_migration_complete_title">Ο λογαριασμός σας μεταφέρθηκε</string>
     <string name="onboarding_migration_complete_description">Ο λογαριασμός σας, οι λίστες αναπαραγωγής, το ιστορικό, οι επισημάνσεις «Μου αρέσει» και τα δεδομένα της βιβλιοθήκης σας είναι έτοιμα σε αυτή την έκδοση του Melos.</string>
     <string name="onboarding_crash_reports_title">Βοηθήστε στη βελτίωση του Melos</string>

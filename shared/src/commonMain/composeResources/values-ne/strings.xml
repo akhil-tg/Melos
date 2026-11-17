@@ -255,7 +255,7 @@
     <string name="credits_license_desc">मेट्रोलिस्ट GPL-3.0 लाइसेन्स अन्तर्गत लाइसेन्स गरिएको छ</string>
     <string name="devmode_already_active" translatable="true">डेभलपर मोड पहिले नै सक्रिय छ</string>
     <string name="discord_enable_rich_presence">डिस्कर्ड रिच प्रेजेन्स</string>
-    <string name="discord_listen_to_metrolist">Melos सुन्नुहोस</string>
+    <string name="discord_listen_to_Melos">Melos सुन्नुहोस</string>
     <string name="discord_login_description">आफ्नो Discord खाता जोड्नुहोस्</string>
     <string name="discord_rich_presence">रिच प्रेजेन्स</string>
     <string name="discord_state">स्थिति</string>
@@ -592,7 +592,7 @@
     <string name="updates_digest_failed">डाउनलोड गरिएको अपडेट GitHub को checksum सँग मेल खाएन।</string>
     <string name="updates_installer_failed">Android को प्याकेज इन्स्टलर उपलब्ध छैन वा यो डिभाइसमा एप इन्स्टलेशन प्रतिबन्धित छ।</string>
     <string name="updates_release_unavailable">यस रिलिजमा उपयुक्त APK समावेश छैन।</string>
-    <string name="updates_release_notes_title">MetroList %1$s मा के नयाँ छ</string>
+    <string name="updates_release_notes_title">Melos %1$s मा के नयाँ छ</string>
     <string name="device_connect_title">डिभाइस कनेक्ट</string>
     <string name="device_connect_beta">बिटा</string>
     <string name="device_connect_enable">सक्रिय गर्नुहोस्</string>
@@ -796,7 +796,7 @@
     <string name="auto_playlist">स्वचालित प्लेलिस्ट</string>
     <string name="restore_confirm_title">ब्याकअप पुनःस्थापना गर्ने?</string>
     <string name="upload_failed">अपलोड असफल भयो</string>
-    <string name="onboarding_migration_description">हामीले एउटा छुट्टै Metrolist डाटाबेस फेला पार्‍यौँ। प्लेलिस्टहरू, इतिहास, लाइकहरू र लाइब्रेरीसम्बन्धी डेटा यहीँ माइग्रेट गर्नुहोस्। माइग्रेसन असफल भएमा तपाईंको मूल डाटाबेस पुनः प्राप्त गर्न सकिनेछ।</string>
+    <string name="onboarding_migration_description">हामीले एउटा छुट्टै Melos डाटाबेस फेला पार्‍यौँ। प्लेलिस्टहरू, इतिहास, लाइकहरू र लाइब्रेरीसम्बन्धी डेटा यहीँ माइग्रेट गर्नुहोस्। माइग्रेसन असफल भएमा तपाईंको मूल डाटाबेस पुनः प्राप्त गर्न सकिनेछ।</string>
     <string name="onboarding_crash_reports_description">Sentry मार्फत वैकल्पिक डायग्नोस्टिक्स साझा गर्नुहोस्, ताकि हामी समस्याहरू छिटो पहिचान गरेर समाधान गर्न सकौँ। तपाईं यसलाई सेटिङ्समा जुनसुकै बेला परिवर्तन गर्न सक्नुहुन्छ।</string>
     <string name="onboarding_notifications_title">सूचनाहरू अनुमति दिनुहोस्</string>
     <string name="onboarding_begin_setup">सेटअप सुरु गर्नुहोस्</string>

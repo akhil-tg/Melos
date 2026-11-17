@@ -1231,7 +1231,7 @@
     <string name="menu_keyboard_shortcuts">Pintasan keyboard</string>
     <string name="menu_application_logs">Log aplikasi</string>
     <string name="menu_report_issue">Laporkan masalah…</string>
-    <string name="menu_about_metrolist">Tentang Melos</string>
+    <string name="menu_about_Melos">Tentang Melos</string>
     <string name="menu_song">Lagu</string>
     <string name="menu_back">Kembali</string>
     <string name="menu_new_playlist">Playlist baru</string>
@@ -1281,7 +1281,7 @@
     <string name="tray_show_window">Tampilkan jendela</string>
     <string name="tray_show_miniplayer">Tampilkan pemutar mini</string>
     <string name="tray_settings">Pengaturan</string>
-    <string name="tray_quit_metrolist">Keluar Melos</string>
+    <string name="tray_quit_Melos">Keluar Melos</string>
     <string name="sign_in_discord">Masuk ke Discord</string>
     <string name="openrouter_auth_instruction">Tempel kode otorisasi yang ditampilkan OpenRouter di peramban Anda.</string>
     <string name="openrouter_auth_code">Kode otorisasi</string>
@@ -1414,7 +1414,7 @@
     <string name="history_playlist_weekly">Lagu Teratas Mingguan</string>
     <string name="history_playlist_monthly">Lagu Teratas Bulanan</string>
     <string name="queue_youtube_history_when_offline_desc">Simpan laporan pemutaran di perangkat ini dan coba lagi setelah terhubung kembali saat aplikasi berjalan. Riwayat yang sedang dijeda tidak akan dicatat</string>
-    <string name="discord_listen_to_metrolist">Dengarkan Melos</string>
+    <string name="discord_listen_to_Melos">Dengarkan Melos</string>
     <string name="app_icon_zenith_black">Zenith Black</string>
     <string name="app_icon_zenith_white">Zenith White</string>
     <string name="mysterious_fourth_tab">Tab keempat yang misterius</string>
@@ -1672,7 +1672,7 @@
     <string name="top_period_past_year">Setahun terakhir</string>
     <string name="onboarding_welcome_description">Atur privasi dan izin sistem sebelum mendengarkan untuk pertama kali.</string>
     <string name="onboarding_migration_title">Koleksi v13 Anda ada di sini</string>
-    <string name="onboarding_migration_description">Kami menemukan database Metrolist mandiri. Migrasikan playlist, riwayat mendengarkan, lagu yang disukai, dan data koleksi di tempat. Anda dapat memulihkan database asli jika migrasi gagal.</string>
+    <string name="onboarding_migration_description">Kami menemukan database Melos mandiri. Migrasikan playlist, riwayat mendengarkan, lagu yang disukai, dan data koleksi di tempat. Anda dapat memulihkan database asli jika migrasi gagal.</string>
     <string name="onboarding_migration_complete_title">Akun Anda telah dimigrasikan</string>
     <string name="onboarding_migration_complete_description">Akun, playlist, riwayat mendengarkan, lagu yang disukai, dan data koleksi Anda sudah siap di versi Melos ini.</string>
     <string name="onboarding_crash_reports_title">Bantu tingkatkan Melos</string>

@@ -227,7 +227,7 @@
     <string name="credits_license_name">许可</string>
     <string name="credits_license_desc">Melos 采用 GPL-3.0 许可证授权。</string>
     <string name="devmode_already_active" translatable="true">开发模式已激活</string>
-    <string name="discord_listen_to_metrolist">收听 Melos</string>
+    <string name="discord_listen_to_Melos">收听 Melos</string>
     <string name="discord_login_description">连接您的 Discord 账号</string>
     <string name="discord_button1_text_default">在 YouTube Music 上收听</string>
     <string name="discord_button2_text_default">访问 Melos</string>
@@ -657,7 +657,7 @@
     <string name="top_period_past_year">过去一年</string>
     <string name="onboarding_welcome_description">首次收听前，请设置隐私和系统权限。</string>
     <string name="onboarding_migration_title">已找到您的 v13 媒体库</string>
-    <string name="onboarding_migration_description">我们找到了独立版 Metrolist 的数据库。您可以就地迁移播放列表、历史记录、喜欢的内容和媒体库数据。如果迁移失败，您可以恢复原始数据库。</string>
+    <string name="onboarding_migration_description">我们找到了独立版 Melos 的数据库。您可以就地迁移播放列表、历史记录、喜欢的内容和媒体库数据。如果迁移失败，您可以恢复原始数据库。</string>
     <string name="onboarding_migration_complete_title">您的账号已迁移</string>
     <string name="onboarding_migration_complete_description">您的账号、播放列表、历史记录、喜欢的内容和媒体库数据已在此版本的 Melos 中准备就绪。</string>
     <string name="onboarding_crash_reports_title">帮助改进 Melos</string>

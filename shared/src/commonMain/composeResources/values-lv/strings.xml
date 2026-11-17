@@ -224,7 +224,7 @@
     <string name="top_period_past_year">Pēdējais gads</string>
     <string name="onboarding_welcome_description">Pirms pirmās klausīšanās iestatiet privātumu un sistēmas atļaujas.</string>
     <string name="onboarding_migration_title">Jūsu v13 bibliotēka ir šeit</string>
-    <string name="onboarding_migration_description">Mēs atradām atsevišķu Metrolist datubāzi. Pārvietojiet atskaņošanas sarakstus, vēsturi, atzīmes Patīk un bibliotēkas datus uz vietas. Ja pārvietošana neizdodas, varat atjaunot sākotnējo datubāzi.</string>
+    <string name="onboarding_migration_description">Mēs atradām atsevišķu Melos datubāzi. Pārvietojiet atskaņošanas sarakstus, vēsturi, atzīmes Patīk un bibliotēkas datus uz vietas. Ja pārvietošana neizdodas, varat atjaunot sākotnējo datubāzi.</string>
     <string name="onboarding_migration_complete_title">Jūsu konts ir pārvietots</string>
     <string name="onboarding_migration_complete_description">Jūsu konts, atskaņošanas saraksti, vēsture, atzīmes Patīk un bibliotēkas dati ir gatavi lietošanai šajā Melos versijā.</string>
     <string name="onboarding_crash_reports_title">Palīdziet uzlabot Melos</string>

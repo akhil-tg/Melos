@@ -222,7 +222,7 @@
     <string name="top_period_past_year">گزشتہ سال</string>
     <string name="onboarding_welcome_description">پہلی بار سننے سے پہلے رازداری اور سسٹم کی اجازتیں ترتیب دیں۔</string>
     <string name="onboarding_migration_title">آپ کی v13 لائبریری یہاں ہے</string>
-    <string name="onboarding_migration_description">ہمیں Metrolist کا ایک الگ ڈیٹابیس ملا ہے۔ پلے لسٹس، سرگزشت، پسند کردہ گانے اور لائبریری کا ڈیٹا اسی جگہ منتقل کریں۔ منتقلی ناکام ہونے پر آپ اصل ڈیٹابیس بحال کر سکتے ہیں۔</string>
+    <string name="onboarding_migration_description">ہمیں Melos کا ایک الگ ڈیٹابیس ملا ہے۔ پلے لسٹس، سرگزشت، پسند کردہ گانے اور لائبریری کا ڈیٹا اسی جگہ منتقل کریں۔ منتقلی ناکام ہونے پر آپ اصل ڈیٹابیس بحال کر سکتے ہیں۔</string>
     <string name="onboarding_migration_complete_title">آپ کا اکاؤنٹ منتقل ہو گیا</string>
     <string name="onboarding_migration_complete_description">آپ کا اکاؤنٹ، پلے لسٹس، سرگزشت، پسند کردہ گانے اور لائبریری کا ڈیٹا Melos کے اس ورژن میں تیار ہیں۔</string>
     <string name="onboarding_crash_reports_title">Melos کو بہتر بنانے میں مدد کریں</string>

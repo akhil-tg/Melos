@@ -608,7 +608,7 @@ class Settings(
     var discordButton1Text by preference("Listen on YouTube Music")
     var discordButton1Url by preference("{song.url}")
     var discordButton2Enabled by preference(true)
-    var discordButton2Text by preference("Visit Metrolist")
+    var discordButton2Text by preference("Visit Melos")
     var discordButton2Url by preference("https://github.com/akhil-tg/Melos")
     var discordUsername by preference("")
     var discordName by preference("")

@@ -271,7 +271,7 @@
     <string name="credits_license_desc">Melos распространяется под лицензией GPL-3.0.</string>
     <string name="devmode_already_active" translatable="true">Режим разработчика уже активен</string>
     <string name="discord_enable_rich_presence">Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Слушает в Melos</string>
+    <string name="discord_listen_to_Melos">Слушает в Melos</string>
     <string name="discord_login_description">Подключите свой аккаунт Discord</string>
     <string name="discord_rich_presence">Rich presence</string>
     <string name="discord_state">Состояние</string>
@@ -1254,7 +1254,7 @@
     <string name="upload_failed">Загрузка не удалась</string>
     <string name="onboarding_welcome_description">Настройте приватность и системные разрешения перед вашим первым прослушиванием.</string>
     <string name="onboarding_migration_title">Ваша библиотека v13 здесь</string>
-    <string name="onboarding_migration_description">Мы обнаружили отдельную базу данных Metrolist. Перенесите плейлисты, историю, лайки и данные библиотеки на месте. Ваш оригинал останется доступным для восстановления в случае провала переноса данных.</string>
+    <string name="onboarding_migration_description">Мы обнаружили отдельную базу данных Melos. Перенесите плейлисты, историю, лайки и данные библиотеки на месте. Ваш оригинал останется доступным для восстановления в случае провала переноса данных.</string>
     <string name="onboarding_migration_complete_title">Ваш аккаунт был перенесен</string>
     <string name="onboarding_migration_complete_description">Ваш аккаунт, плейлисты, история, лайки и данные библиотеки готовы в этой версии Melos.</string>
     <string name="onboarding_crash_reports_title">Помогите улучшить Melos</string>
@@ -1423,7 +1423,7 @@
     <string name="menu_keyboard_shortcuts">Сочетания клавиш</string>
     <string name="menu_application_logs">Логи приложения</string>
     <string name="menu_report_issue">Сообщить о проблеме…</string>
-    <string name="menu_about_metrolist">О Melos</string>
+    <string name="menu_about_Melos">О Melos</string>
     <string name="menu_song">Песня</string>
     <string name="menu_stop">Стоп</string>
     <string name="menu_go_to_current_song">Перейти к текущей песне</string>
@@ -1665,7 +1665,7 @@
     <string name="tray_show_window">Показать окно</string>
     <string name="tray_show_miniplayer">Показать мини-плеер</string>
     <string name="tray_settings">Настройки</string>
-    <string name="tray_quit_metrolist">Выйти из Melos</string>
+    <string name="tray_quit_Melos">Выйти из Melos</string>
     <string name="sign_in_discord">Войти в Discord</string>
     <string name="discord_sign_in_unavailable">Вход в Discord недоступен</string>
     <string name="sign_in_youtube_music">Войти в YouTube Music</string>

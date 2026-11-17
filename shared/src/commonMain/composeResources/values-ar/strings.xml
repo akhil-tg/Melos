@@ -511,7 +511,7 @@
     <string name="top_period_past_year">السنة الماضية</string>
     <string name="onboarding_welcome_description">اضبط الخصوصية وأذونات النظام قبل الاستماع للمرة الأولى.</string>
     <string name="onboarding_migration_title">مكتبتك من الإصدار 13 موجودة هنا</string>
-    <string name="onboarding_migration_description">عثرنا على قاعدة بيانات مستقلة لـ Metrolist. انقل قوائم الأغاني وسجل الاستماع والأغاني المفضلة وبيانات المكتبة في مكانها. يمكنك استعادة قاعدة البيانات الأصلية إذا فشل النقل.</string>
+    <string name="onboarding_migration_description">عثرنا على قاعدة بيانات مستقلة لـ Melos. انقل قوائم الأغاني وسجل الاستماع والأغاني المفضلة وبيانات المكتبة في مكانها. يمكنك استعادة قاعدة البيانات الأصلية إذا فشل النقل.</string>
     <string name="onboarding_migration_complete_title">تم نقل حسابك</string>
     <string name="onboarding_migration_complete_description">حسابك وقوائم الأغاني وسجل الاستماع والأغاني المفضلة وبيانات مكتبتك جاهزة في هذا الإصدار من Melos.</string>
     <string name="onboarding_crash_reports_title">ساعد في تحسين Melos</string>

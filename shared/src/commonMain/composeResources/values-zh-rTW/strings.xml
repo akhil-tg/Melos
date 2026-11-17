@@ -242,7 +242,7 @@
     <string name="credits_license_desc">Melos 依據 GPL-3.0 授權。</string>
     <string name="devmode_already_active" translatable="true">開發模式已啟用</string>
     <string name="discord_enable_rich_presence">啟用 Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">用 Melos 收聽</string>
+    <string name="discord_listen_to_Melos">用 Melos 收聽</string>
     <string name="discord_login_description">連結您的 Discord 帳戶</string>
     <string name="discord_rich_presence">Rich Presence</string>
     <string name="discord_state">狀態</string>
@@ -555,7 +555,7 @@
     <string name="top_period_past_year">過去一年</string>
     <string name="onboarding_welcome_description">首次聆聽前，請設定隱私和系統權限。</string>
     <string name="onboarding_migration_title">已找到您的 v13 音樂庫</string>
-    <string name="onboarding_migration_description">我們找到了獨立版 Metrolist 的資料庫。您可以就地移轉播放清單、歷史記錄、喜歡的歌曲和音樂庫資料。如果移轉失敗，您可以復原原始資料庫。</string>
+    <string name="onboarding_migration_description">我們找到了獨立版 Melos 的資料庫。您可以就地移轉播放清單、歷史記錄、喜歡的歌曲和音樂庫資料。如果移轉失敗，您可以復原原始資料庫。</string>
     <string name="onboarding_migration_complete_title">您的帳戶已移轉</string>
     <string name="onboarding_migration_complete_description">您的帳戶、播放清單、歷史記錄、喜歡的歌曲和音樂庫資料已可在此版本的 Melos 中使用。</string>
     <string name="onboarding_crash_reports_title">協助改善 Melos</string>

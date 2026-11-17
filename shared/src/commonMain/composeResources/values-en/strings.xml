@@ -229,7 +229,7 @@
     <string name="top_period_past_year">Past year</string>
     <string name="onboarding_welcome_description">Set up privacy and system permissions before your first listen.</string>
     <string name="onboarding_migration_title">Your v13 library is here</string>
-    <string name="onboarding_migration_description">We found a standalone Metrolist database. Migrate playlists, history, likes, and library data in place. You can recover the original database if migration fails.</string>
+    <string name="onboarding_migration_description">We found a standalone Melos database. Migrate playlists, history, likes, and library data in place. You can recover the original database if migration fails.</string>
     <string name="onboarding_migration_complete_title">Your account was migrated</string>
     <string name="onboarding_migration_complete_description">Your account, playlists, history, likes, and library data are ready in this version of Melos.</string>
     <string name="onboarding_crash_reports_title">Help improve Melos</string>

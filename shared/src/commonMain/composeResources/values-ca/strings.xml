@@ -258,7 +258,7 @@
     <string name="credits_license_desc">Melos està sota la llicència GPL-3.0.</string>
     <string name="devmode_already_active" translatable="true">El mode de desenvolupament ja està activat</string>
     <string name="discord_enable_rich_presence">Habilita Rich Presence de Discord</string>
-    <string name="discord_listen_to_metrolist">Escolta Melos</string>
+    <string name="discord_listen_to_Melos">Escolta Melos</string>
     <string name="discord_login_description">Connecta el teu compte de Discord</string>
     <string name="discord_rich_presence">Rich presence</string>
     <string name="discord_state">Estat</string>
@@ -268,7 +268,7 @@
     <string name="discord_status_not_initialized">No inicialitzat</string>
     <string name="discord_status_authorized">Autoritzat</string>
     <string name="discord_error_denied">Autorització denegada per Discord.</string>
-    <string name="discord_error_connection_failed">No s\u0027ha pogut connectar a Discord. MetroList ho tornarà a intentar automàticament.</string>
+    <string name="discord_error_connection_failed">No s\u0027ha pogut connectar a Discord. Melos ho tornarà a intentar automàticament.</string>
     <string name="discord_error_no_browser">No hi ha cap aplicació disponible per obrir l\u0027autorització de Discord.</string>
     <string name="discord_error_token_exchange_failed">El canvi de token ha fallat. Torna-ho a intentar.</string>
     <string name="discord_error_token_refresh_failed">La renovació del token ha fallat. Torneu a iniciar sessió.</string>
@@ -570,9 +570,9 @@
     <string name="updates_title">Actualització de l\u0027aplicació</string>
     <string name="updates_check">Comprova actualitzacions</string>
     <string name="updates_checking">Comprovant actualitzacions…</string>
-    <string name="updates_no_updates">El teu MetroList està actualitzat</string>
+    <string name="updates_no_updates">El teu Melos està actualitzat</string>
     <string name="updates_error">No s\u0027ha pogut comprovar actualitzacions</string>
-    <string name="updates_status_current">Actualitzat a MetroList %1$s</string>
+    <string name="updates_status_current">Actualitzat a Melos %1$s</string>
     <string name="updates_auto_check">Comprova actualitzacions automàticament</string>
     <string name="updates_notifications">Activa les notificacions d'actualització</string>
     <string name="updates_changelogs">Registres de canvis</string>
@@ -1204,7 +1204,7 @@
     <string name="upload_failed">Ha fallat la pujada</string>
     <string name="onboarding_welcome_description">Configura els permisos de privadesa i del sistema abans d\u0027escoltar per primera vegada.</string>
     <string name="onboarding_migration_title">La teva biblioteca v13 és aquí</string>
-    <string name="onboarding_migration_description">Hem trobat una base de dades Metrolist independent. Migra les llistes de reproducció, l\u0027historial, els m\u0027agrada i les dades de la biblioteca in situ. L\u0027original es podrà recuperar si la migració falla.</string>
+    <string name="onboarding_migration_description">Hem trobat una base de dades Melos independent. Migra les llistes de reproducció, l\u0027historial, els m\u0027agrada i les dades de la biblioteca in situ. L\u0027original es podrà recuperar si la migració falla.</string>
     <string name="onboarding_migration_complete_title">El teu compte s\u0027ha migrat</string>
     <string name="onboarding_migration_complete_description">El teu compte, les llistes de reproducció, l\u0027historial, els m\u0027agrada i les dades de la biblioteca estan llestos en aquesta versió de Melos.</string>
     <string name="onboarding_crash_reports_title">Ajuda a millorar Melos</string>
@@ -1372,7 +1372,7 @@
     <string name="menu_keyboard_shortcuts">Dreceres de teclat</string>
     <string name="menu_application_logs">Registres de l'aplicació</string>
     <string name="menu_report_issue">Informa d'un problema…</string>
-    <string name="menu_about_metrolist">Quant a Melos</string>
+    <string name="menu_about_Melos">Quant a Melos</string>
     <string name="menu_song">Cançó</string>
     <string name="menu_stop">Atura</string>
     <string name="menu_go_to_current_song">Ves a la cançó actual</string>
@@ -1446,7 +1446,7 @@
     <string name="privacy_policy">Llegiu la nostra política de privadesa</string>
     <string name="log_in">Inicia la sessió</string>
     <string name="restore_from_backup">Restaura des de còpia de seguretat</string>
-    <string name="onboarding_backup_picker_title">Restaura la còpia de seguretat de MetroList</string>
+    <string name="onboarding_backup_picker_title">Restaura la còpia de seguretat de Melos</string>
     <string name="onboarding_backup_picker_error">No s\u0027ha pogut obrir el selector de còpia de seguretat: %1$s</string>
     <string name="onboarding_backup_restore_failed">La restauració ha fallat: %1$s</string>
     <string name="edit_sidebar">Edita la barra lateral</string>
@@ -1544,12 +1544,12 @@
         <item quantity="many">%1$d cançons</item>
     </plurals>
     <string name="app_data">Dades de l’aplicació</string>
-    <string name="backup_picker_title">Restaura la còpia de seguretat de MetroList</string>
-    <string name="create_backup_dialog_title">Crea la còpia de seguretat de MetroList</string>
+    <string name="backup_picker_title">Restaura la còpia de seguretat de Melos</string>
+    <string name="create_backup_dialog_title">Crea la còpia de seguretat de Melos</string>
     <string name="backup_created">Còpia de seguretat creada</string>
     <string name="backup_failed">Ha fallat la còpia de seguretat: %1$s</string>
     <string name="could_not_open_file_picker">No s\u0027ha pogut obrir el seleccionador de fitxers: %1$s</string>
-    <string name="restore_replaces_data">Això substitueix la configuració actual, les credencials, els comptes i les dades de la biblioteca. MetroList es reiniciarà automàticament.</string>
+    <string name="restore_replaces_data">Això substitueix la configuració actual, les credencials, els comptes i les dades de la biblioteca. Melos es reiniciarà automàticament.</string>
     <string name="create_backup_countdown">Crea còpia de seguretat (%1$d)</string>
     <string name="listen_together_how_it_works">Com funciona</string>
     <string name="listen_together_how_it_works_body">Escolta Junts us permet escoltar música en sincronia amb els amics. L'amfitrió controla la reproducció i els convidats la segueixen automàticament.</string>
@@ -1612,7 +1612,7 @@
     <string name="tray_show_window">Mostra la finestra</string>
     <string name="tray_show_miniplayer">Mostra el mini-reproductor</string>
     <string name="tray_settings">Paràmetres</string>
-    <string name="tray_quit_metrolist">Tanca Melos</string>
+    <string name="tray_quit_Melos">Tanca Melos</string>
     <string name="sign_in_discord">Inicia sessió - Discord</string>
     <string name="discord_sign_in_unavailable">Inici de sessió de Discord no disponible</string>
     <string name="sign_in_youtube_music">Inicia sessió - YouTube Music</string>

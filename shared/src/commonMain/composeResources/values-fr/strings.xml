@@ -263,7 +263,7 @@
     <string name="credits_license_desc">Melos est distribué sous licence GPL-3.0</string>
     <string name="devmode_already_active" translatable="true">Mode développeur déjà actif</string>
     <string name="discord_enable_rich_presence">Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Écoute Melos</string>
+    <string name="discord_listen_to_Melos">Écoute Melos</string>
     <string name="discord_login_description">Connectez votre compte Discord</string>
     <string name="discord_rich_presence">Rich Presence</string>
     <string name="discord_state">État</string>
@@ -1402,7 +1402,7 @@
     <string name="onboarding_welcome_description">Réglez les paramètres de confidentialité et les permissions de l\u0027application avant votre première écoute.</string>
     <string name="onboarding_crash_reports_title">Contribuez à améliorer Melos</string>
     <string name="onboarding_migration_title">Voici votre bibliothèque Melos v13</string>
-    <string name="onboarding_migration_description">Nous avons trouvé des données issues de la version standard de Metrolist. Importez vos playlists, vos titres favoris, votre historique et votre bibliothèque. Les données d\u0027origine restent intactes si l\u0027importation échoue.</string>
+    <string name="onboarding_migration_description">Nous avons trouvé des données issues de la version standard de Melos. Importez vos playlists, vos titres favoris, votre historique et votre bibliothèque. Les données d\u0027origine restent intactes si l\u0027importation échoue.</string>
     <string name="onboarding_migration_complete_title">Vos données ont été importées</string>
     <string name="onboarding_migration_complete_description">Votre compte, vos playlists, vos titres favoris, votre historique et votre bibliothèque sont maintenant disponibles dans cette version de Melos.</string>
     <string name="onboarding_crash_reports_description">Partagez des données de diagnostic optionnelles via Sentry pour nous aider à identifier et corriger les problèmes. Vous pouvez changer d'avis à tout moment depuis les paramètres.</string>
@@ -1594,7 +1594,7 @@
     <string name="menu_application_logs">Journaux de l'application</string>
     <string name="app_logs">Journaux de l'application</string>
     <string name="menu_report_issue">Signaler un problème…</string>
-    <string name="menu_about_metrolist">À propos de Melos</string>
+    <string name="menu_about_Melos">À propos de Melos</string>
     <string name="menu_song">Titre</string>
     <string name="song_type">Titre</string>
     <string name="menu_stop">Arrêter</string>
@@ -1839,7 +1839,7 @@
     <string name="tray_show_window">Afficher la fenêtre</string>
     <string name="tray_show_miniplayer">Afficher le mini-lecteur</string>
     <string name="tray_settings">Paramètres</string>
-    <string name="tray_quit_metrolist">Quitter Melos</string>
+    <string name="tray_quit_Melos">Quitter Melos</string>
     <string name="webview_cleanup_failed">Le profil d\u0027authentification WebView n\u0027a pas pu être supprimé.</string>
     <string name="clearing_signin_session">Fermeture de la session de connexion non terminée…</string>
     <string name="signin_cleanup_failed">Fermeture de la session de connexion échouée.</string>

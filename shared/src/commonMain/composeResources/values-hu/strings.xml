@@ -400,7 +400,7 @@
     <string name="top_period_past_year">Elmúlt év</string>
     <string name="onboarding_welcome_description">Állítsd be az adatvédelmet és a rendszerengedélyeket az első zenehallgatás előtt.</string>
     <string name="onboarding_migration_title">Itt van a v13-as könyvtárad</string>
-    <string name="onboarding_migration_description">Találtunk egy önálló Metrolist-adatbázist. Helyben áttelepítheted a lejátszásilistákat, előzményeket, kedveléseket és könyvtáradatokat. Ha az áttelepítés sikertelen, visszaállíthatod az eredeti adatbázist.</string>
+    <string name="onboarding_migration_description">Találtunk egy önálló Melos-adatbázist. Helyben áttelepítheted a lejátszásilistákat, előzményeket, kedveléseket és könyvtáradatokat. Ha az áttelepítés sikertelen, visszaállíthatod az eredeti adatbázist.</string>
     <string name="onboarding_migration_complete_title">A fiókod áttelepítése megtörtént</string>
     <string name="onboarding_migration_complete_description">A fiókod, lejátszásilistáid, előzményeid, kedveléseid és könyvtáradataid készen állnak a Melos ezen verziójában.</string>
     <string name="onboarding_crash_reports_title">Segíts a Melos fejlesztésében</string>

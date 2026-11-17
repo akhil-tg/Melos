@@ -400,7 +400,7 @@
     <string name="top_period_past_year">Последната година</string>
     <string name="onboarding_welcome_description">Настройте поверителността и системните разрешения преди първото слушане.</string>
     <string name="onboarding_migration_title">Вашата библиотека от v13 е тук</string>
-    <string name="onboarding_migration_description">Открихме самостоятелна база данни на Metrolist. Прехвърлете плейлистите, историята, харесванията и данните от библиотеката на място. Можете да възстановите оригиналната база данни, ако прехвърлянето е неуспешно.</string>
+    <string name="onboarding_migration_description">Открихме самостоятелна база данни на Melos. Прехвърлете плейлистите, историята, харесванията и данните от библиотеката на място. Можете да възстановите оригиналната база данни, ако прехвърлянето е неуспешно.</string>
     <string name="onboarding_migration_complete_title">Вашият акаунт е прехвърлен</string>
     <string name="onboarding_migration_complete_description">Вашият акаунт, плейлисти, история, харесвания и данни от библиотеката са готови в тази версия на Melos.</string>
     <string name="onboarding_crash_reports_title">Помогнете за подобряването на Melos</string>

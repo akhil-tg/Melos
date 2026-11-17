@@ -254,7 +254,7 @@
     <string name="credits_license_desc">GPL-3.0 Melos ని అనుమతించింది.</string>
     <string name="devmode_already_active" translatable="true">డెవలపర్ మోడ్ ఇప్పటికే పని చేస్తోంది</string>
     <string name="discord_enable_rich_presence">Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Melos ని వినండీ</string>
+    <string name="discord_listen_to_Melos">Melos ని వినండీ</string>
     <string name="discord_login_description">మీ Discord Account ను చేర్చండి</string>
     <string name="discord_rich_presence">Rich Presence</string>
     <string name="discord_state">స్థితి</string>
@@ -612,7 +612,7 @@
     <string name="top_period_past_year">గత సంవత్సరం</string>
     <string name="onboarding_welcome_description">మొదటిసారి వినడానికి ముందు గోప్యత, సిస్టమ్ అనుమతులను సెటప్ చేయండి.</string>
     <string name="onboarding_migration_title">మీ v13 గ్రంథాలయం ఇక్కడ ఉంది</string>
-    <string name="onboarding_migration_description">మాకు ఒక స్వతంత్ర Metrolist డేటాబేస్ కనిపించింది. ప్లేలిస్ట్‌లు, చరిత్ర, నచ్చిన పాటలు, గ్రంథాలయ డేటాను ఉన్న చోటే బదిలీ చేయండి. బదిలీ విఫలమైతే అసలు డేటాబేస్‌ను తిరిగి పొందవచ్చు.</string>
+    <string name="onboarding_migration_description">మాకు ఒక స్వతంత్ర Melos డేటాబేస్ కనిపించింది. ప్లేలిస్ట్‌లు, చరిత్ర, నచ్చిన పాటలు, గ్రంథాలయ డేటాను ఉన్న చోటే బదిలీ చేయండి. బదిలీ విఫలమైతే అసలు డేటాబేస్‌ను తిరిగి పొందవచ్చు.</string>
     <string name="onboarding_migration_complete_title">మీ ఖాతా బదిలీ చేయబడింది</string>
     <string name="onboarding_migration_complete_description">మీ ఖాతా, ప్లేలిస్ట్‌లు, చరిత్ర, నచ్చిన పాటలు, గ్రంథాలయ డేటా ఈ Melos సంస్కరణలో సిద్ధంగా ఉన్నాయి.</string>
     <string name="onboarding_crash_reports_title">Melos మెరుగుదలకు సహాయపడండి</string>

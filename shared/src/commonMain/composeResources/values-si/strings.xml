@@ -223,7 +223,7 @@
     <string name="top_period_past_year">පසුගිය වසර</string>
     <string name="onboarding_welcome_description">පළමු වරට සවන් දීමට පෙර පෞද්ගලිකත්වය සහ පද්ධති අවසර සකසන්න.</string>
     <string name="onboarding_migration_title">ඔබගේ v13 පුස්තකාලය මෙහි ඇත</string>
-    <string name="onboarding_migration_description">අපට ස්වාධීන Metrolist දත්ත සමුදායක් හමු විය. ධාවන ලැයිස්තු, ඉතිහාසය, කැමැත්ත පළ කළ සිංදු සහ පුස්තකාල දත්ත එම ස්ථානයේම සංක්‍රමණය කරන්න. සංක්‍රමණය අසාර්ථක වුවහොත් මුල් දත්ත සමුදාය නැවත ලබාගත හැක.</string>
+    <string name="onboarding_migration_description">අපට ස්වාධීන Melos දත්ත සමුදායක් හමු විය. ධාවන ලැයිස්තු, ඉතිහාසය, කැමැත්ත පළ කළ සිංදු සහ පුස්තකාල දත්ත එම ස්ථානයේම සංක්‍රමණය කරන්න. සංක්‍රමණය අසාර්ථක වුවහොත් මුල් දත්ත සමුදාය නැවත ලබාගත හැක.</string>
     <string name="onboarding_migration_complete_title">ඔබගේ ගිණුම සංක්‍රමණය කරන ලදි</string>
     <string name="onboarding_migration_complete_description">ඔබගේ ගිණුම, ධාවන ලැයිස්තු, ඉතිහාසය, කැමැත්ත පළ කළ සිංදු සහ පුස්තකාල දත්ත මෙම Melos අනුවාදයේ සූදානම්ව ඇත.</string>
     <string name="onboarding_crash_reports_title">Melos වැඩිදියුණු කිරීමට උදවු කරන්න</string>

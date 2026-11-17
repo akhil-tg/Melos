@@ -392,7 +392,7 @@
     <string name="top_period_past_year">過去1年</string>
     <string name="onboarding_welcome_description">初めて聴く前に、プライバシーとシステムの権限を設定しましょう。</string>
     <string name="onboarding_migration_title">v13 のライブラリが見つかりました</string>
-    <string name="onboarding_migration_description">単体版 Metrolist のデータベースが見つかりました。プレイリスト、履歴、高評価、ライブラリのデータをその場で移行できます。移行に失敗した場合は、元のデータベースを復元できます。</string>
+    <string name="onboarding_migration_description">単体版 Melos のデータベースが見つかりました。プレイリスト、履歴、高評価、ライブラリのデータをその場で移行できます。移行に失敗した場合は、元のデータベースを復元できます。</string>
     <string name="onboarding_migration_complete_title">アカウントを移行しました</string>
     <string name="onboarding_migration_complete_description">アカウント、プレイリスト、履歴、高評価、ライブラリのデータをこのバージョンの Melos で利用できるようになりました。</string>
     <string name="onboarding_crash_reports_title">Melos の改善にご協力ください</string>

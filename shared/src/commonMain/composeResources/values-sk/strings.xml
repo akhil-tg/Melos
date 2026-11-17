@@ -257,7 +257,7 @@
     <string name="credits_license_desc">Melos je licencovaný pod licenciou GPL-3.0</string>
     <string name="devmode_already_active" translatable="true">Režim vývojára je už aktívny</string>
     <string name="discord_enable_rich_presence">Zapnúť Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Vypočujte si Melos</string>
+    <string name="discord_listen_to_Melos">Vypočujte si Melos</string>
     <string name="discord_login_description">Prepojte svoj Discord účet</string>
     <string name="discord_rich_presence">Rich Presence</string>
     <string name="discord_state">Stav</string>
@@ -888,7 +888,7 @@
     <string name="top_period_past_year">Posledný rok</string>
     <string name="onboarding_welcome_description">Pred prvým počúvaním nastavte súkromie a systémové povolenia.</string>
     <string name="onboarding_migration_title">Vaša knižnica z verzie v13 je tu</string>
-    <string name="onboarding_migration_description">Našli sme samostatnú databázu Metrolist. Preneste playlisty, históriu, obľúbené skladby a údaje knižnice na mieste. Ak prenos zlyhá, môžete obnoviť pôvodnú databázu.</string>
+    <string name="onboarding_migration_description">Našli sme samostatnú databázu Melos. Preneste playlisty, históriu, obľúbené skladby a údaje knižnice na mieste. Ak prenos zlyhá, môžete obnoviť pôvodnú databázu.</string>
     <string name="onboarding_migration_complete_title">Váš účet bol prenesený</string>
     <string name="onboarding_migration_complete_description">Váš účet, playlisty, história, obľúbené skladby a údaje knižnice sú pripravené v tejto verzii Melos.</string>
     <string name="onboarding_crash_reports_title">Pomôžte zlepšiť Melos</string>

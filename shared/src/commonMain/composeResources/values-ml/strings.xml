@@ -388,7 +388,7 @@
     <string name="top_period_past_year">കഴിഞ്ഞ വർഷം</string>
     <string name="onboarding_welcome_description">ആദ്യമായി കേൾക്കുന്നതിന് മുമ്പ് സ്വകാര്യതയും സിസ്റ്റം അനുമതികളും സജ്ജമാക്കുക.</string>
     <string name="onboarding_migration_title">നിങ്ങളുടെ v13 ലൈബ്രറി ഇവിടെയുണ്ട്</string>
-    <string name="onboarding_migration_description">ഒരു സ്വതന്ത്ര Metrolist ഡാറ്റാബേസ് കണ്ടെത്തി. പ്ലേലിസ്റ്റുകൾ, ചരിത്രം, ഇഷ്ടപ്പെട്ടവ, ലൈബ്രറി ഡാറ്റ എന്നിവ അതേ സ്ഥാനത്ത് മാറ്റുക. മാറ്റം പരാജയപ്പെട്ടാൽ യഥാർത്ഥ ഡാറ്റാബേസ് വീണ്ടെടുക്കാം.</string>
+    <string name="onboarding_migration_description">ഒരു സ്വതന്ത്ര Melos ഡാറ്റാബേസ് കണ്ടെത്തി. പ്ലേലിസ്റ്റുകൾ, ചരിത്രം, ഇഷ്ടപ്പെട്ടവ, ലൈബ്രറി ഡാറ്റ എന്നിവ അതേ സ്ഥാനത്ത് മാറ്റുക. മാറ്റം പരാജയപ്പെട്ടാൽ യഥാർത്ഥ ഡാറ്റാബേസ് വീണ്ടെടുക്കാം.</string>
     <string name="onboarding_migration_complete_title">നിങ്ങളുടെ അക്കൗണ്ട് മാറ്റിയിരിക്കുന്നു</string>
     <string name="onboarding_migration_complete_description">നിങ്ങളുടെ അക്കൗണ്ട്, പ്ലേലിസ്റ്റുകൾ, ചരിത്രം, ഇഷ്ടപ്പെട്ടവ, ലൈബ്രറി ഡാറ്റ എന്നിവ Melos-ന്റെ ഈ പതിപ്പിൽ തയ്യാറാണ്.</string>
     <string name="onboarding_crash_reports_title">Melos മെച്ചപ്പെടുത്താൻ സഹായിക്കുക</string>

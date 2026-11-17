@@ -255,7 +255,7 @@
     <string name="credits_license_desc">Melos ist unter GPL-3.0 lizenziert</string>
     <string name="devmode_already_active" translatable="true">Entwicklermodus ist bereits aktiv</string>
     <string name="discord_enable_rich_presence">Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Hören mit Melos</string>
+    <string name="discord_listen_to_Melos">Hören mit Melos</string>
     <string name="discord_login_description">Verbinde deinen Discord-Account</string>
     <string name="discord_rich_presence">Rich Presence</string>
     <string name="discord_state">Status</string>
@@ -1178,7 +1178,7 @@
     <string name="upload_failed">Hochladen fehlgeschlagen</string>
     <string name="onboarding_welcome_description">Stelle Privatsphäre und Systemberechtigungen vor deinem ersten Hören ein.</string>
     <string name="onboarding_migration_title">Deine V.13 Bibliothek ist hier</string>
-    <string name="onboarding_migration_description">Wir haben eine eigenständige Metrolist-Datenbank gefunden. Migriere Playlists, Verlauf, Likes und Bibliotheksdaten. Du kannst die ursprüngliche Datenbank wiederherstellen, falls die Migration fehlschlägt.</string>
+    <string name="onboarding_migration_description">Wir haben eine eigenständige Melos-Datenbank gefunden. Migriere Playlists, Verlauf, Likes und Bibliotheksdaten. Du kannst die ursprüngliche Datenbank wiederherstellen, falls die Migration fehlschlägt.</string>
     <string name="onboarding_migration_complete_title">Dein Konto wurde migriert</string>
     <string name="onboarding_migration_complete_description">Dein Konto, Playlists, Verlauf, Likes und Bibliotheksdaten sind in dieser Melos-Version verfügbar.</string>
     <string name="onboarding_crash_reports_title">Hilf, Melos zu verbessern</string>
@@ -1345,7 +1345,7 @@
     <string name="menu_keyboard_shortcuts">Tastenkürzel</string>
     <string name="menu_application_logs">App-Protokolle</string>
     <string name="menu_report_issue">Ein Problem melden…</string>
-    <string name="menu_about_metrolist">Über Melos</string>
+    <string name="menu_about_Melos">Über Melos</string>
     <string name="menu_song">Song</string>
     <string name="menu_stop">Stop</string>
     <string name="menu_go_to_current_song">Zum aktuellen Song</string>
@@ -1583,7 +1583,7 @@
     <string name="tray_show_window">Fenster anzeigen</string>
     <string name="tray_show_miniplayer">Mini-Player anzeigen</string>
     <string name="tray_settings">Einstellungen</string>
-    <string name="tray_quit_metrolist">Melos beenden</string>
+    <string name="tray_quit_Melos">Melos beenden</string>
     <string name="sign_in_discord">Bei Discord anmelden</string>
     <string name="discord_sign_in_unavailable">Discord-Anmeldung nicht verfügbar</string>
     <string name="sign_in_youtube_music">Bei Youtube Music anmelden</string>

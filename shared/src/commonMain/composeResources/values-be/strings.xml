@@ -377,7 +377,7 @@
     <string name="top_period_past_year">За апошні год</string>
     <string name="onboarding_welcome_description">Наладзьце прыватнасць і сістэмныя дазволы перад першым праслухоўваннем.</string>
     <string name="onboarding_migration_title">Ваша бібліятэка з v13 тут</string>
-    <string name="onboarding_migration_description">Мы знайшлі асобную базу даных Metrolist. Перанясіце плэй-лісты, гісторыю, упадабаныя кампазіцыі і даныя бібліятэкі на месцы. Калі перанос не ўдасца, вы зможаце аднавіць зыходную базу даных.</string>
+    <string name="onboarding_migration_description">Мы знайшлі асобную базу даных Melos. Перанясіце плэй-лісты, гісторыю, упадабаныя кампазіцыі і даныя бібліятэкі на месцы. Калі перанос не ўдасца, вы зможаце аднавіць зыходную базу даных.</string>
     <string name="onboarding_migration_complete_title">Ваш уліковы запіс перанесены</string>
     <string name="onboarding_migration_complete_description">Ваш уліковы запіс, плэй-лісты, гісторыя, упадабаныя кампазіцыі і даныя бібліятэкі гатовыя ў гэтай версіі Melos.</string>
     <string name="onboarding_crash_reports_title">Дапамажыце палепшыць Melos</string>

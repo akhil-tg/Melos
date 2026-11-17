@@ -408,7 +408,7 @@
     <string name="top_period_past_year">השנה האחרונה</string>
     <string name="onboarding_welcome_description">יש להגדיר פרטיות והרשאות מערכת לפני ההאזנה הראשונה.</string>
     <string name="onboarding_migration_title">הספרייה שלך מגרסה 13 כאן</string>
-    <string name="onboarding_migration_description">מצאנו מסד נתונים עצמאי של Metrolist. אפשר להעביר את הפלייליסטים, ההיסטוריה, הלייקים ונתוני הספרייה במקום. ניתן לשחזר את מסד הנתונים המקורי אם ההעברה תיכשל.</string>
+    <string name="onboarding_migration_description">מצאנו מסד נתונים עצמאי של Melos. אפשר להעביר את הפלייליסטים, ההיסטוריה, הלייקים ונתוני הספרייה במקום. ניתן לשחזר את מסד הנתונים המקורי אם ההעברה תיכשל.</string>
     <string name="onboarding_migration_complete_title">החשבון שלך הועבר</string>
     <string name="onboarding_migration_complete_description">החשבון, הפלייליסטים, ההיסטוריה, הלייקים ונתוני הספרייה שלך מוכנים לשימוש בגרסה הזו של Melos.</string>
     <string name="onboarding_crash_reports_title">עזרו לשפר את Melos</string>

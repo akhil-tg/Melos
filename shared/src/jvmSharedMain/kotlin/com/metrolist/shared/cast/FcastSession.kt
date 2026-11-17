@@ -113,8 +113,8 @@ internal class FcastSession(
                 send(
                     OPCODE_INITIAL,
                     buildJsonObject {
-                        put("displayName", "Metrolist")
-                        put("appName", "Metrolist")
+                        put("displayName", "Melos")
+                        put("appName", "Melos")
                         put("appVersion", appVersion)
                     }.toString(),
                 )

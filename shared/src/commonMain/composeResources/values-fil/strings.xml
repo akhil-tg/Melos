@@ -246,7 +246,7 @@
     <string name="credits_license_desc">Lisensyado ang Melos sa ilalim ng GPL-3.0</string>
     <string name="devmode_already_active" translatable="true">Devmode ay aktibo na</string>
     <string name="discord_enable_rich_presence">I-enable ang Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Makinig sa Melos</string>
+    <string name="discord_listen_to_Melos">Makinig sa Melos</string>
     <string name="discord_login_description">Ikonekta ang iyong Discord account</string>
     <string name="discord_rich_presence">Rich Presence</string>
     <string name="discord_state">Status</string>
@@ -1180,7 +1180,7 @@
     <string name="upload_failed">Nabigo ang pag-upload</string>
     <string name="onboarding_welcome_description">I-set up ang privacy at mga pahintulot ng system bago ang iyong unang pakikinig.</string>
     <string name="onboarding_migration_title">Narito na ang iyong v13 library</string>
-    <string name="onboarding_migration_description">Nakahanap kami ng standalone na database ng Metrolist. Ilipat ang mga playlist, history, likes, at data ng library sa lugar. Mananatiling mababawi ang iyong orihinal kung sakaling mabigo ang paglipat.</string>
+    <string name="onboarding_migration_description">Nakahanap kami ng standalone na database ng Melos. Ilipat ang mga playlist, history, likes, at data ng library sa lugar. Mananatiling mababawi ang iyong orihinal kung sakaling mabigo ang paglipat.</string>
     <string name="onboarding_migration_complete_title">Nailipat na ang iyong account</string>
     <string name="onboarding_migration_complete_description">Handa na ang iyong account, mga playlist, history, mga like, at data ng library sa bersyong ito ng Melos.</string>
     <string name="onboarding_crash_reports_title">Tumulong na mapabuti ang Melos</string>
@@ -1344,7 +1344,7 @@
     <string name="menu_miniplayer">Miniplayer</string>
     <string name="menu_application_logs">Logs ng aplikasyon</string>
     <string name="menu_report_issue">Mag-report ng problema…</string>
-    <string name="menu_about_metrolist">Tungkol sa Melos</string>
+    <string name="menu_about_Melos">Tungkol sa Melos</string>
     <string name="menu_song">Kanta</string>
     <string name="menu_stop">Hinto</string>
     <string name="menu_go_to_current_song">Pumunta sa kasalukuyang kanta</string>
@@ -1585,7 +1585,7 @@
     <string name="tray_show_window">Ipakita ang window</string>
     <string name="tray_show_miniplayer">Ipakita ang miniplayer</string>
     <string name="tray_settings">Mga setting</string>
-    <string name="tray_quit_metrolist">I-quit ang Melos</string>
+    <string name="tray_quit_Melos">I-quit ang Melos</string>
     <string name="sign_in_discord">Mag-sign in sa Discord</string>
     <string name="discord_sign_in_unavailable">Hindi available ang sign-in sa Discord</string>
     <string name="sign_in_youtube_music">Mag-sign in sa YouTube Music</string>

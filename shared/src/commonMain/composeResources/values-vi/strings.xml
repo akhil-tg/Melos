@@ -392,7 +392,7 @@
     <string name="top_period_past_year">Năm qua</string>
     <string name="onboarding_welcome_description">Thiết lập quyền riêng tư và quyền hệ thống trước lần nghe đầu tiên.</string>
     <string name="onboarding_migration_title">Thư viện v13 của bạn ở đây</string>
-    <string name="onboarding_migration_description">Chúng tôi đã tìm thấy một cơ sở dữ liệu Metrolist độc lập. Di chuyển danh sách phát, lịch sử, lượt thích và dữ liệu thư viện ngay tại chỗ. Bạn có thể khôi phục cơ sở dữ liệu gốc nếu quá trình di chuyển thất bại.</string>
+    <string name="onboarding_migration_description">Chúng tôi đã tìm thấy một cơ sở dữ liệu Melos độc lập. Di chuyển danh sách phát, lịch sử, lượt thích và dữ liệu thư viện ngay tại chỗ. Bạn có thể khôi phục cơ sở dữ liệu gốc nếu quá trình di chuyển thất bại.</string>
     <string name="onboarding_migration_complete_title">Tài khoản của bạn đã được di chuyển</string>
     <string name="onboarding_migration_complete_description">Tài khoản, danh sách phát, lịch sử, lượt thích và dữ liệu thư viện của bạn đã sẵn sàng trong phiên bản Melos này.</string>
     <string name="onboarding_crash_reports_title">Giúp cải thiện Melos</string>

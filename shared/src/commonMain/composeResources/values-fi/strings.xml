@@ -255,7 +255,7 @@
     <string name="credits_license_desc">Melos on GPL-3.0-lisenssin alainen.</string>
     <string name="devmode_already_active" translatable="true">Kehittäjätila on jo käytössä</string>
     <string name="discord_enable_rich_presence">Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Kuuntele Melosillä</string>
+    <string name="discord_listen_to_Melos">Kuuntele Melosillä</string>
     <string name="discord_login_description">Yhdistä Discord-tilisi</string>
     <string name="discord_rich_presence">Rich presence</string>
     <string name="discord_state">Tila</string>
@@ -1200,7 +1200,7 @@
     <string name="uploading">Lähetetään…</string>
     <string name="upload_failed">Lähettäminen epäonnistui</string>
     <string name="onboarding_migration_title">V13-kirjastosi on täällä</string>
-    <string name="onboarding_migration_description">Löysimme erillisen Metrolist-tietokannan. Voit tuoda soittolistat, historian, tykkäykset ja kirjastosi. Alkuperäinen tietokanta säilyy, mikäli tuonti epäonnistuisi.</string>
+    <string name="onboarding_migration_description">Löysimme erillisen Melos-tietokannan. Voit tuoda soittolistat, historian, tykkäykset ja kirjastosi. Alkuperäinen tietokanta säilyy, mikäli tuonti epäonnistuisi.</string>
     <string name="onboarding_migration_complete_title">Tilisi tuotiin</string>
     <string name="onboarding_migration_complete_description">Tilisi, soittolistasi, historiasi, tykkäyksesi ja kirjastosi ovat nyt käytettävissä Melosin tässä versiossa.</string>
     <string name="onboarding_crash_reports_title">Auta parantamaan Melosia</string>
@@ -1398,7 +1398,7 @@
     <string name="menu_keyboard_shortcuts">Pikanäppäimet</string>
     <string name="menu_application_logs">Sovelluslokit</string>
     <string name="menu_report_issue">Ilmoita ongelmasta…</string>
-    <string name="menu_about_metrolist">Tietoja Melosistä</string>
+    <string name="menu_about_Melos">Tietoja Melosistä</string>
     <string name="menu_song">Kappale</string>
     <string name="menu_stop">Pysäytä</string>
     <string name="menu_go_to_current_song">Siirry nykyiseen kappaleeseen</string>
@@ -1633,7 +1633,7 @@
     <string name="tray_show_window">Näytä ikkuna</string>
     <string name="tray_show_miniplayer">Näytä minisoitin</string>
     <string name="tray_settings">Asetukset</string>
-    <string name="tray_quit_metrolist">Sulje Melos</string>
+    <string name="tray_quit_Melos">Sulje Melos</string>
     <string name="sign_in_discord">Kirjaudu sisään Discordiin</string>
     <string name="discord_sign_in_unavailable">Discord-kirjautuminen ei ole saatavilla</string>
     <string name="sign_in_youtube_music">Kirjaudu sisään Youtube Musiciin</string>

@@ -227,7 +227,7 @@
     <string name="top_period_past_year">Seneste år</string>
     <string name="onboarding_welcome_description">Indstil privatliv og systemtilladelser, før du lytter første gang.</string>
     <string name="onboarding_migration_title">Dit v13-bibliotek er her</string>
-    <string name="onboarding_migration_description">Vi fandt en selvstændig Metrolist-database. Overfør afspilningslister, historik, sange, du synes om, og biblioteksdata på stedet. Du kan gendanne den oprindelige database, hvis overførslen mislykkes.</string>
+    <string name="onboarding_migration_description">Vi fandt en selvstændig Melos-database. Overfør afspilningslister, historik, sange, du synes om, og biblioteksdata på stedet. Du kan gendanne den oprindelige database, hvis overførslen mislykkes.</string>
     <string name="onboarding_migration_complete_title">Din konto er overført</string>
     <string name="onboarding_migration_complete_description">Din konto, dine afspilningslister, din historik, dine sange, du synes om, og dine biblioteksdata er klar i denne version af Melos.</string>
     <string name="onboarding_crash_reports_title">Hjælp med at forbedre Melos</string>

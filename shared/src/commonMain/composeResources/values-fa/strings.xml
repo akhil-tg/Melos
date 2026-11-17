@@ -277,7 +277,7 @@
     <string name="credits_license_name">مجوز</string>
     <string name="credits_license_desc">مترولیست با مجوز GPL-3.0 منتشر می‌شود.</string>
     <string name="devmode_already_active" translatable="true">حالت برنامه‌نویسی از قبل فعال شده است</string>
-    <string name="discord_listen_to_metrolist">شنیدن مترولیست</string>
+    <string name="discord_listen_to_Melos">شنیدن مترولیست</string>
     <string name="discord_login_description">اتصال به حساب دیسکورد</string>
     <string name="discord_state">حالت</string>
     <string name="discord_button1_text_default">گوش دادن در YouTube Music</string>
@@ -490,7 +490,7 @@
     <string name="top_period_past_year">سال گذشته</string>
     <string name="onboarding_welcome_description">پیش از اولین بار گوش دادن، حریم خصوصی و مجوزهای سیستم را تنظیم کنید.</string>
     <string name="onboarding_migration_title">مجموعهٔ نسخهٔ ۱۳ شما اینجاست</string>
-    <string name="onboarding_migration_description">یک پایگاه دادهٔ مستقل Metrolist پیدا کردیم. فهرست‌پخش‌ها، تاریخچه، آهنگ‌های پسندیده‌شده و داده‌های مجموعه را در همین محل منتقل کنید. اگر انتقال ناموفق باشد، می‌توانید پایگاه دادهٔ اصلی را بازیابی کنید.</string>
+    <string name="onboarding_migration_description">یک پایگاه دادهٔ مستقل Melos پیدا کردیم. فهرست‌پخش‌ها، تاریخچه، آهنگ‌های پسندیده‌شده و داده‌های مجموعه را در همین محل منتقل کنید. اگر انتقال ناموفق باشد، می‌توانید پایگاه دادهٔ اصلی را بازیابی کنید.</string>
     <string name="onboarding_migration_complete_title">حساب شما منتقل شد</string>
     <string name="onboarding_migration_complete_description">حساب، فهرست‌پخش‌ها، تاریخچه، آهنگ‌های پسندیده‌شده و داده‌های مجموعهٔ شما در این نسخه از Melos آماده‌اند.</string>
     <string name="onboarding_crash_reports_title">به بهبود Melos کمک کنید</string>

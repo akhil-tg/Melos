@@ -358,7 +358,7 @@
     <string name="top_period_past_year">গত বছর</string>
     <string name="onboarding_welcome_description">প্রথমবার শোনার আগে গোপনীয়তা ও সিস্টেমের অনুমতি সেট আপ করুন।</string>
     <string name="onboarding_migration_title">আপনার v13 লাইব্রেরি এখানে আছে</string>
-    <string name="onboarding_migration_description">আমরা একটি স্বতন্ত্র Metrolist ডেটাবেস পেয়েছি। প্লেলিস্ট, ইতিহাস, পছন্দের গান ও লাইব্রেরির তথ্য এখানেই স্থানান্তর করুন। স্থানান্তর ব্যর্থ হলে আপনি মূল ডেটাবেস পুনরুদ্ধার করতে পারবেন।</string>
+    <string name="onboarding_migration_description">আমরা একটি স্বতন্ত্র Melos ডেটাবেস পেয়েছি। প্লেলিস্ট, ইতিহাস, পছন্দের গান ও লাইব্রেরির তথ্য এখানেই স্থানান্তর করুন। স্থানান্তর ব্যর্থ হলে আপনি মূল ডেটাবেস পুনরুদ্ধার করতে পারবেন।</string>
     <string name="onboarding_migration_complete_title">আপনার অ্যাকাউন্ট স্থানান্তর করা হয়েছে</string>
     <string name="onboarding_migration_complete_description">আপনার অ্যাকাউন্ট, প্লেলিস্ট, ইতিহাস, পছন্দের গান ও লাইব্রেরির তথ্য Melos-এর এই সংস্করণে প্রস্তুত আছে।</string>
     <string name="onboarding_crash_reports_title">Melos উন্নত করতে সাহায্য করুন</string>

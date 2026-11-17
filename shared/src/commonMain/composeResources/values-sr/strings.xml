@@ -1026,7 +1026,7 @@
     <string name="top_period_past_year">Poslednje godine</string>
     <string name="onboarding_welcome_description">Podesite privatnost i sistemske dozvole pre prvog slušanja.</string>
     <string name="onboarding_migration_title">Vaša biblioteka iz verzije v13 je ovde</string>
-    <string name="onboarding_migration_description">Pronašli smo samostalnu Metrolist bazu podataka. Prenesite plejliste, istoriju slušanja, oznake sviđanja i podatke biblioteke na istom mestu. Izvornu bazu podataka možete oporaviti ako prenos ne uspe.</string>
+    <string name="onboarding_migration_description">Pronašli smo samostalnu Melos bazu podataka. Prenesite plejliste, istoriju slušanja, oznake sviđanja i podatke biblioteke na istom mestu. Izvornu bazu podataka možete oporaviti ako prenos ne uspe.</string>
     <string name="onboarding_migration_complete_title">Vaš nalog je prenet</string>
     <string name="onboarding_migration_complete_description">Vaš nalog, plejliste, istorija slušanja, oznake sviđanja i podaci biblioteke spremni su u ovoj verziji aplikacije Melos.</string>
     <string name="onboarding_crash_reports_title">Pomozite da poboljšamo Melos</string>

@@ -272,7 +272,7 @@
     <string name="credits_collaborators_section">Tým Melos hrdinů</string>
     <string name="devmode_already_active" translatable="true">Vývojářský režim je již aktivní</string>
     <string name="discord_enable_rich_presence">Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Poslouchej Melos</string>
+    <string name="discord_listen_to_Melos">Poslouchej Melos</string>
     <string name="discord_login_description">Připoj svůj Discord účet</string>
     <string name="discord_rich_presence">Rich presence</string>
     <string name="discord_state">Stav</string>
@@ -1249,7 +1249,7 @@
     <string name="upload_failed">Nahrávání selhalo</string>
     <string name="onboarding_welcome_description">Nastavit soukromí a oprávnění systému před prvním poslechem.</string>
     <string name="onboarding_migration_title">Tvoje knihovna v13 je zde</string>
-    <string name="onboarding_migration_description">Našli jsme samostatnou databázi Metrolistu. Migrujte playlisty, historii, oblíbené skladby a data knihovny. Původní data zůstanou obnovitelná, pokud migrace selže.</string>
+    <string name="onboarding_migration_description">Našli jsme samostatnou databázi Melosu. Migrujte playlisty, historii, oblíbené skladby a data knihovny. Původní data zůstanou obnovitelná, pokud migrace selže.</string>
     <string name="onboarding_migration_complete_title">Tvůj účet byl přenesen</string>
     <string name="onboarding_migration_complete_description">Tvůj účet, playlisty, historie, oblíbené a data knihovny jsou připraveny v této verzi Melosu.</string>
     <string name="onboarding_crash_reports_title">Pomož vylepšit Melos</string>
@@ -1418,7 +1418,7 @@
     <string name="menu_keyboard_shortcuts">Klávesové zkratky</string>
     <string name="menu_application_logs">Záznamy aplikace</string>
     <string name="menu_report_issue">Nahlásit problém…</string>
-    <string name="menu_about_metrolist">O aplikaci Melos</string>
+    <string name="menu_about_Melos">O aplikaci Melos</string>
     <string name="menu_song">Skladba</string>
     <string name="menu_stop">Zastavit</string>
     <string name="menu_go_to_current_song">Přejít na současnou skladbu</string>
@@ -1720,7 +1720,7 @@
     <string name="tray_show_window">Zobrazit okno</string>
     <string name="tray_show_miniplayer">Zobrazit mini přehrávač</string>
     <string name="tray_settings">Nastavení</string>
-    <string name="tray_quit_metrolist">Ukončit Melos</string>
+    <string name="tray_quit_Melos">Ukončit Melos</string>
     <string name="sign_in_discord">Přihlásit se - Discord</string>
     <string name="discord_sign_in_unavailable">Přihlášení přes Discord není dostupné</string>
     <string name="sign_in_youtube_music">Přihlásit se - YouTube Music</string>

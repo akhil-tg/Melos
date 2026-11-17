@@ -255,7 +255,7 @@
     <string name="credits_license_desc">Melos on litsentsitud GPL-3.0 all</string>
     <string name="devmode_already_active" translatable="true">Arendajarežiim on juba aktiivne</string>
     <string name="discord_enable_rich_presence">Luba Discord'i Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Kuula Melos\u0027i</string>
+    <string name="discord_listen_to_Melos">Kuula Melos\u0027i</string>
     <string name="discord_login_description">Ühenda oma Discord\u0027i konto</string>
     <string name="discord_rich_presence">Rich presence</string>
     <string name="discord_state">Staatus</string>
@@ -526,7 +526,7 @@
     <string name="top_period_past_year">Viimane aasta</string>
     <string name="onboarding_welcome_description">Seadista privaatsus ja süsteemiõigused enne esimest kuulamist.</string>
     <string name="onboarding_migration_title">Sinu v13 muusikakogu on siin</string>
-    <string name="onboarding_migration_description">Leidsime eraldiseisva Metrolisti andmebaasi. Kanna esitusloendid, kuulamisajalugu, meeldivaks märgitud lood ja muusikakogu andmed üle kohapeal. Kui ülekandmine ebaõnnestub, saad algse andmebaasi taastada.</string>
+    <string name="onboarding_migration_description">Leidsime eraldiseisva Melosi andmebaasi. Kanna esitusloendid, kuulamisajalugu, meeldivaks märgitud lood ja muusikakogu andmed üle kohapeal. Kui ülekandmine ebaõnnestub, saad algse andmebaasi taastada.</string>
     <string name="onboarding_migration_complete_title">Sinu konto on üle kantud</string>
     <string name="onboarding_migration_complete_description">Sinu konto, esitusloendid, kuulamisajalugu, meeldivaks märgitud lood ja muusikakogu andmed on selles Melosi versioonis valmis.</string>
     <string name="onboarding_crash_reports_title">Aita Melosi paremaks muuta</string>

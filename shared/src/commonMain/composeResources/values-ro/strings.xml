@@ -263,7 +263,7 @@
     <string name="credits_license_desc">Melos este licențiat sub GPL-3.0</string>
     <string name="devmode_already_active" translatable="true">Modul dezvoltator este deja activat</string>
     <string name="discord_enable_rich_presence">Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Ascultă pe Melos</string>
+    <string name="discord_listen_to_Melos">Ascultă pe Melos</string>
     <string name="discord_login_description">Conectează-ți contul de Discord</string>
     <string name="discord_rich_presence">Rich presence</string>
     <string name="discord_state">Stare</string>
@@ -1219,7 +1219,7 @@
     <string name="upload_failed">Încărcarea a eșuat</string>
     <string name="onboarding_welcome_description">Configurează permisiunile de confidențialitate și de sistem înainte de prima ascultare.</string>
     <string name="onboarding_migration_title">Biblioteca ta v13 este aici</string>
-    <string name="onboarding_migration_description">Am găsit o bază de date Metrolist independentă. Migrează playlist-urile, istoricul, aprecierile și datele bibliotecii în același loc. Poți să recuperezi baza de date originală dacă mirata eșuează.</string>
+    <string name="onboarding_migration_description">Am găsit o bază de date Melos independentă. Migrează playlist-urile, istoricul, aprecierile și datele bibliotecii în același loc. Poți să recuperezi baza de date originală dacă mirata eșuează.</string>
     <string name="onboarding_migration_complete_title">Contul tău a fost migrat</string>
     <string name="onboarding_migration_complete_description">Contul, playlist-urile, istoricul, aprecierile și datele bibliotecii tale sunt gata în această versiune a Melos.</string>
     <string name="onboarding_crash_reports_title">Ajută la îmbunătățirea Melos</string>
@@ -1382,7 +1382,7 @@
     <string name="menu_keyboard_shortcuts">Comenzi rapide la tastatură</string>
     <string name="menu_application_logs">Jurnalele aplicației</string>
     <string name="menu_report_issue">Raportează o problemă…</string>
-    <string name="menu_about_metrolist">Despre Melos</string>
+    <string name="menu_about_Melos">Despre Melos</string>
     <string name="menu_song">Melodie</string>
     <string name="menu_stop">Oprire</string>
     <string name="menu_go_to_current_song">Mergi la melodia curentă</string>
@@ -1624,7 +1624,7 @@
     <string name="tray_show_window">Arată fereastra</string>
     <string name="tray_show_miniplayer">Afișează miniplayerul</string>
     <string name="tray_settings">Setări</string>
-    <string name="tray_quit_metrolist">Ieșire din Melos</string>
+    <string name="tray_quit_Melos">Ieșire din Melos</string>
     <string name="sign_in_discord">Autentifică-te la Discord</string>
     <string name="discord_sign_in_unavailable">Conectarea prin Discord nu este disponibilă</string>
     <string name="sign_in_youtube_music">Autentifică-te la YouTube Music</string>

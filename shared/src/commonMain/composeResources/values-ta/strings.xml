@@ -388,7 +388,7 @@
     <string name="top_period_past_year">கடந்த ஆண்டு</string>
     <string name="onboarding_welcome_description">முதலில் கேட்பதற்கு முன் தனியுரிமையையும் கணினி அனுமதிகளையும் அமைக்கவும்.</string>
     <string name="onboarding_migration_title">உங்கள் v13 நூலகம் இங்கே உள்ளது</string>
-    <string name="onboarding_migration_description">தனித்த Metrolist தரவுத்தளத்தைக் கண்டறிந்தோம். பிளேலிச்ட்கள், வரலாறு, விருப்பங்கள் மற்றும் நூலகத் தரவை அதே இடத்தில் மாற்றவும். மாற்றம் தோல்வியுற்றால் அசல் தரவுத்தளத்தை மீட்டெடுக்கலாம்.</string>
+    <string name="onboarding_migration_description">தனித்த Melos தரவுத்தளத்தைக் கண்டறிந்தோம். பிளேலிச்ட்கள், வரலாறு, விருப்பங்கள் மற்றும் நூலகத் தரவை அதே இடத்தில் மாற்றவும். மாற்றம் தோல்வியுற்றால் அசல் தரவுத்தளத்தை மீட்டெடுக்கலாம்.</string>
     <string name="onboarding_migration_complete_title">உங்கள் கணக்கு மாற்றப்பட்டது</string>
     <string name="onboarding_migration_complete_description">உங்கள் கணக்கு, பிளேலிச்ட்கள், வரலாறு, விருப்பங்கள் மற்றும் நூலகத் தரவு இந்த Melos பதிப்பில் தயாராக உள்ளன.</string>
     <string name="onboarding_crash_reports_title">Melos-ஐ மேம்படுத்த உதவுங்கள்</string>

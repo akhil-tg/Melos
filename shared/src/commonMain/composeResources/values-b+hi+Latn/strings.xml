@@ -255,7 +255,7 @@
     <string name="credits_license_desc">Melos GPL-3.0 license ke antargat aata hai.</string>
     <string name="devmode_already_active" translatable="true">Devmode pehle se hi chaalu hai</string>
     <string name="discord_enable_rich_presence">Discord par dikhaye ki kya sun rahe hai</string>
-    <string name="discord_listen_to_metrolist">Melos me sune</string>
+    <string name="discord_listen_to_Melos">Melos me sune</string>
     <string name="discord_login_description">Apne discord ki account ko jode</string>
     <string name="discord_rich_presence">Sunne ki jaankari</string>
     <string name="discord_state">Sthiti</string>
@@ -822,7 +822,7 @@
     <string name="top_period_past_year">Pichhla saal</string>
     <string name="onboarding_welcome_description">Pehli baar sunne se pehle gopniyata aur system ki anumatiyan set karein.</string>
     <string name="onboarding_migration_title">Aapki v13 library yahan hai</string>
-    <string name="onboarding_migration_description">Hamein Metrolist ka ek alag database mila hai. Geet suchiyan, sunne ka itihas, pasand kiye gaye gaane aur library ka data yahin migrate karein. Migration fail hone par aap asli database vapas la sakte hain.</string>
+    <string name="onboarding_migration_description">Hamein Melos ka ek alag database mila hai. Geet suchiyan, sunne ka itihas, pasand kiye gaye gaane aur library ka data yahin migrate karein. Migration fail hone par aap asli database vapas la sakte hain.</string>
     <string name="onboarding_migration_complete_title">Aapka khata migrate ho gaya</string>
     <string name="onboarding_migration_complete_description">Aapka khata, geet suchiyan, sunne ka itihas, pasand kiye gaye gaane aur library ka data Melos ke is version mein taiyar hain.</string>
     <string name="onboarding_crash_reports_title">Melos ko behtar banane mein madad karein</string>

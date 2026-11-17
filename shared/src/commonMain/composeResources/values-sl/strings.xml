@@ -270,7 +270,7 @@
     <string name="credits_license_desc">Melos je licenciran pod licenco GPL-3.0.</string>
     <string name="devmode_already_active" translatable="true">Način za razvijalce je že aktiven</string>
     <string name="discord_enable_rich_presence">Omogoči Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Poslušajte Melos</string>
+    <string name="discord_listen_to_Melos">Poslušajte Melos</string>
     <string name="discord_login_description">Povežite svoj Discord račun</string>
     <string name="discord_rich_presence">Rich presence</string>
     <string name="discord_state">Stanje</string>
@@ -512,7 +512,7 @@
     <string name="top_period_past_year">Zadnje leto</string>
     <string name="onboarding_welcome_description">Pred prvim poslušanjem nastavite zasebnost in sistemska dovoljenja.</string>
     <string name="onboarding_migration_title">Vaša knjižnica iz različice v13 je tukaj</string>
-    <string name="onboarding_migration_description">Našli smo samostojno podatkovno zbirko Metrolist. Na mestu preselite sezname predvajanja, zgodovino poslušanja, všečke in podatke knjižnice. Če selitev ne uspe, lahko obnovite izvirno podatkovno zbirko.</string>
+    <string name="onboarding_migration_description">Našli smo samostojno podatkovno zbirko Melos. Na mestu preselite sezname predvajanja, zgodovino poslušanja, všečke in podatke knjižnice. Če selitev ne uspe, lahko obnovite izvirno podatkovno zbirko.</string>
     <string name="onboarding_migration_complete_title">Vaš račun je bil preseljen</string>
     <string name="onboarding_migration_complete_description">Vaš račun, seznami predvajanja, zgodovina poslušanja, všečki in podatki knjižnice so pripravljeni v tej različici aplikacije Melos.</string>
     <string name="onboarding_crash_reports_title">Pomagajte izboljšati Melos</string>

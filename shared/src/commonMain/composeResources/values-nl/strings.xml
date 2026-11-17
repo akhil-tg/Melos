@@ -255,7 +255,7 @@
     <string name="credits_license_desc">Melos valt onder de GPL-3.0-licentie.</string>
     <string name="devmode_already_active" translatable="true">Devmode is al actief</string>
     <string name="discord_enable_rich_presence">Zet Discord Rich Presence aan</string>
-    <string name="discord_listen_to_metrolist">Luister naar Melos</string>
+    <string name="discord_listen_to_Melos">Luister naar Melos</string>
     <string name="discord_login_description">Connecteer je Discord account</string>
     <string name="discord_rich_presence">Rich presence</string>
     <string name="discord_state">Status</string>
@@ -940,7 +940,7 @@
     <string name="upload_failed">Uploaden mislukt</string>
     <string name="onboarding_welcome_description">Stel de privacy en systeem rechten in voordat je voor het eerst naar muziek luistert.</string>
     <string name="onboarding_migration_title">Je v13 bibliotheek is hier</string>
-    <string name="onboarding_migration_description">We hebben een alleenstaande Metrolist database gevonden. Migreer afspeellijsten, geschiedenis, video's die je leuk vind en bibliotheekgegevens zonder alles te verwijderen. Je oorspronkelijke gegevens blijven herstelbaar als de overzetten mislukt.</string>
+    <string name="onboarding_migration_description">We hebben een alleenstaande Melos database gevonden. Migreer afspeellijsten, geschiedenis, video's die je leuk vind en bibliotheekgegevens zonder alles te verwijderen. Je oorspronkelijke gegevens blijven herstelbaar als de overzetten mislukt.</string>
     <string name="onboarding_migration_complete_title">Je account is overgezet</string>
     <string name="onboarding_migration_complete_description">Je account, afspeellijsten, geschiedenis, video\u0027s die je leuk vind en bibliotheekgegevens zijn beschikbaar in deze versie van Melos.</string>
     <string name="onboarding_crash_reports_title">Help Melos te verbeteren</string>

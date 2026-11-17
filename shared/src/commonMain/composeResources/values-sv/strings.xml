@@ -251,7 +251,7 @@
     <string name="credits_license_desc">Melos är licensierad under GPL-3.0-licensen.</string>
     <string name="devmode_already_active" translatable="true">Utvecklarläget är redan aktiverat</string>
     <string name="discord_enable_rich_presence">Aktivera Discord Rich Presence</string>
-    <string name="discord_listen_to_metrolist">Lyssna på Melos</string>
+    <string name="discord_listen_to_Melos">Lyssna på Melos</string>
     <string name="discord_login_description">Anslut ditt Discord-konto</string>
     <string name="discord_rich_presence">Rich presence</string>
     <string name="discord_state">Läge</string>
@@ -1176,7 +1176,7 @@
     <string name="upload_failed">Uppladdning misslyckades</string>
     <string name="onboarding_welcome_description">Ställ in integritet och systembehörigheter innan din första lyssning.</string>
     <string name="onboarding_migration_title">Ditt v13-bibliotek finns här</string>
-    <string name="onboarding_migration_description">Vi hittade en fristående Metrolist-databas. Migrera spellistor, historik, gillanden och bibliotekdata på plats. Din originaldatabas förblir återställningsbar om migreringen misslyckas.</string>
+    <string name="onboarding_migration_description">Vi hittade en fristående Melos-databas. Migrera spellistor, historik, gillanden och bibliotekdata på plats. Din originaldatabas förblir återställningsbar om migreringen misslyckas.</string>
     <string name="onboarding_migration_complete_title">Ditt konto har migrerats</string>
     <string name="onboarding_migration_complete_description">Ditt konto, spellistor, historik, gillanden och biblioteksdata är redo i denna version av Melos.</string>
     <string name="onboarding_crash_reports_title">Hjälp oss att förbättra Melos</string>
@@ -1306,7 +1306,7 @@
     <string name="menu_miniplayer">Minispelare</string>
     <string name="menu_keyboard_shortcuts">Kortkommandon</string>
     <string name="menu_report_issue">Rapportera ett fel…</string>
-    <string name="menu_about_metrolist">Om Melos</string>
+    <string name="menu_about_Melos">Om Melos</string>
     <string name="menu_song">Sång</string>
     <string name="menu_stop">Stoppa</string>
     <string name="menu_shuffle_on">På</string>

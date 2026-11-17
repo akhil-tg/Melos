@@ -366,7 +366,7 @@
     <string name="top_period_past_year">ਪਿਛਲਾ ਸਾਲ</string>
     <string name="onboarding_welcome_description">ਪਹਿਲੀ ਵਾਰ ਸੁਣਨ ਤੋਂ ਪਹਿਲਾਂ ਨਿੱਜਤਾ ਅਤੇ ਸਿਸਟਮ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਸੈੱਟ ਕਰੋ।</string>
     <string name="onboarding_migration_title">ਤੁਹਾਡੀ v13 ਲਾਇਬ੍ਰੇਰੀ ਇੱਥੇ ਹੈ</string>
-    <string name="onboarding_migration_description">ਸਾਨੂੰ ਇੱਕ ਵੱਖਰਾ Metrolist ਡਾਟਾਬੇਸ ਮਿਲਿਆ ਹੈ। ਪਲੇਲਿਸਟਾਂ, ਅਤੀਤ, ਪਸੰਦ ਕੀਤੇ ਗੀਤ ਅਤੇ ਲਾਇਬ੍ਰੇਰੀ ਦਾ ਡਾਟਾ ਇੱਥੇ ਹੀ ਤਬਦੀਲ ਕਰੋ। ਜੇ ਤਬਦੀਲੀ ਅਸਫਲ ਰਹਿੰਦੀ ਹੈ ਤਾਂ ਤੁਸੀਂ ਅਸਲ ਡਾਟਾਬੇਸ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <string name="onboarding_migration_description">ਸਾਨੂੰ ਇੱਕ ਵੱਖਰਾ Melos ਡਾਟਾਬੇਸ ਮਿਲਿਆ ਹੈ। ਪਲੇਲਿਸਟਾਂ, ਅਤੀਤ, ਪਸੰਦ ਕੀਤੇ ਗੀਤ ਅਤੇ ਲਾਇਬ੍ਰੇਰੀ ਦਾ ਡਾਟਾ ਇੱਥੇ ਹੀ ਤਬਦੀਲ ਕਰੋ। ਜੇ ਤਬਦੀਲੀ ਅਸਫਲ ਰਹਿੰਦੀ ਹੈ ਤਾਂ ਤੁਸੀਂ ਅਸਲ ਡਾਟਾਬੇਸ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੇ ਹੋ।</string>
     <string name="onboarding_migration_complete_title">ਤੁਹਾਡਾ ਖਾਤਾ ਤਬਦੀਲ ਹੋ ਗਿਆ</string>
     <string name="onboarding_migration_complete_description">ਤੁਹਾਡਾ ਖਾਤਾ, ਪਲੇਲਿਸਟਾਂ, ਅਤੀਤ, ਪਸੰਦ ਕੀਤੇ ਗੀਤ ਅਤੇ ਲਾਇਬ੍ਰੇਰੀ ਦਾ ਡਾਟਾ Melos ਦੇ ਇਸ ਵਰਜਨ ਵਿੱਚ ਤਿਆਰ ਹਨ।</string>
     <string name="onboarding_crash_reports_title">Melos ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰੋ</string>

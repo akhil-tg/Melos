@@ -392,7 +392,7 @@
     <string name="top_period_past_year">ปีที่ผ่านมา</string>
     <string name="onboarding_welcome_description">ตั้งค่าความเป็นส่วนตัวและสิทธิ์ของระบบก่อนฟังครั้งแรก</string>
     <string name="onboarding_migration_title">คลังจาก v13 ของคุณอยู่ที่นี่</string>
-    <string name="onboarding_migration_description">เราพบฐานข้อมูล Metrolist แบบแยก ย้ายเพลย์ลิสต์ ประวัติ เพลงที่ถูกใจ และข้อมูลคลังในตำแหน่งเดิมได้ คุณสามารถกู้คืนฐานข้อมูลต้นฉบับได้หากการย้ายล้มเหลว</string>
+    <string name="onboarding_migration_description">เราพบฐานข้อมูล Melos แบบแยก ย้ายเพลย์ลิสต์ ประวัติ เพลงที่ถูกใจ และข้อมูลคลังในตำแหน่งเดิมได้ คุณสามารถกู้คืนฐานข้อมูลต้นฉบับได้หากการย้ายล้มเหลว</string>
     <string name="onboarding_migration_complete_title">ย้ายบัญชีของคุณแล้ว</string>
     <string name="onboarding_migration_complete_description">บัญชี เพลย์ลิสต์ ประวัติ เพลงที่ถูกใจ และข้อมูลคลังของคุณพร้อมใช้งานใน Melos เวอร์ชันนี้แล้ว</string>
     <string name="onboarding_crash_reports_title">ช่วยปรับปรุง Melos</string>
