@@ -69,7 +69,7 @@ Shared glyphs come from Google's [Material Symbols](https://github.com/google/ma
 
 Run `python3 scripts/generate_material_symbols.py regen`, then `verify`. For an upstream refresh, pass `--revision <full-sha>`, update `UPSTREAM_REVISION` and record the SHA in the commit body. `taskbar` regenerates Windows ICOs with `rsvg-convert` and Pillow. Run `python3 scripts/test_generate_material_symbols.py` after generator changes.
 
-Gradient artwork lives in `assets/app-icons/gradient/`; the alternate icons are by Kayé. Launcher, brand and tray art are separate from Material Symbols. Preserve their source artwork and notices. Last.fm artist biographies keep their attribution link to Last.fm.
+Launcher, brand and tray art are separate from Material Symbols. Last.fm artist biographies keep their attribution link to Last.fm.
 
 ## Motion and visibility
 

@@ -316,7 +316,6 @@ private fun AppHeaderCard(
                 Image(
                     painter = logo,
                     contentDescription = stringResource(Res.string.app_name),
-                    colorFilter = ColorFilter.tint(colorScheme.onPrimaryContainer, BlendMode.SrcIn),
                     modifier = Modifier.padding(12.dp),
                 )
             }
